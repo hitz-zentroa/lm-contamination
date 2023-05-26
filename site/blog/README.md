@@ -23,7 +23,8 @@ A simple way to detect if a LM has already seen any particular dataset is by ask
 
 As seen below in Figure 1, the model generated the text and labels perfectly i.e., that EU is an organization, German and British are miscellaneous, Peter Blackburn is a person and BRUSSELS is a location. In fact, the model is able to generate the validation and even the test splits, including annotation errors such as China labeled as a person. A quick search on Google shows that at least 3 papers (one of them was actually accepted for the top scientific conference ACL 2023) did  evaluate either ChatGPT or Codex (another closed LM) as a zero-shot or few-shot NER system [1, 2, 3]. BTW, the performance of ChatGPT on CoNLL03 improved by almost 9 F1 points from the first paper (February 20th) to the second paper (May 23rd) for unknown reasons, but that’s another story beyond this post.
 
-![irudia1](path_to_image)
+![An example of ChatGPT generating the CoNLL03 dataset.](imgs/CoNLL03_train_small.png)
+
 ***Figure 1**: An example of ChatGPT generating the CoNLL03 dataset. The generated example is exactly the first training example.*
 
 How does this extend to other NLP datasets? To investigate this phenomenon, we applied the same protocol used for CoNLL03 to a variety of NLP datasets. We used the following prompt for this experiments: 
@@ -32,14 +33,15 @@ How does this extend to other NLP datasets? To investigate this phenomenon, we a
 
 By applying this prompt to diverse NLP tasks, we found that ChatGPT is capable of generating accurate examples for other popular datasets like SQuAD 2.0 and MNLI. In some other cases, ChatGPT generated non-existing examples (hallucinated the content), yet it generated original attributes like format or identifiers in the datasets. Even if the capability of recovering the attributes but not the exact example shows a lower degree of memorization, it does show that the model saw the dataset during training.  See Figure 2.
 
-![irudia2](path_to_image)
+![An example of ChatGPT generating the ACE05 dataset.](imgs/ACE_format_small.png)
+
 ***Figure 2**: An example of ChatGPT generating the ACE05 dataset. While the format is valid and generates plausible doc_ids, the example does not exist in the dataset.*
 
 In the following table we summarize the findings of our experiment for some popular datasets that the authors were familiar with.
 
 [table]
 |**Dataset**|**Task**|**Release date**|**Train split**|**Dev split**|**Test split**|**Guidelines**|
-|:----------|:-------|:---------------|:--------------|:------------|:-------------|:-------------|
+|:----------|:-------|:---------------|:--------------|:------------|:-------------|:------------:|
 |CoNLL03    | IE     | 2003           |[<img src="https://img.shields.io/badge/-Examples%20-red">]() | [<img src="https://img.shields.io/badge/-Examples%20-red">]() | [<img src="https://img.shields.io/badge/-Examples%20-red">]() | |
 |ACE05      | IE     | 2005           |[<img src="https://img.shields.io/badge/-Attributes%20-blue">]() | [<img src="https://img.shields.io/badge/-Attributes%20-blue">]() | [<img src="https://img.shields.io/badge/-Attributes%20-blue">]() | ✔️ |
 |OntoNotes  | IE     | 2013           |[<img src="https://img.shields.io/badge/-Hallucinates%20-green">]() | [<img src="https://img.shields.io/badge/-Hallucinates%20-green">]() |[<img src="https://img.shields.io/badge/-Hallucinates%20-green">]() | ✔️ |
