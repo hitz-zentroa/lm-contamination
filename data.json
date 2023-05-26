@@ -5,7 +5,7 @@
         "train_split": "examples",
         "dev_split": "examples",
         "test_split": "examples",
-        "guidelines": false
+        "guidelines": null
     },
     {
         "model": "ChatGPT",
@@ -22,14 +22,14 @@
         "dev_split": "hallucinates",
         "test_split": "hallucinates",
         "guidelines": true
-    },   
+    },
     {
         "model": "ChatGPT",
         "dataset": "SQuAD",
         "train_split": "examples",
         "dev_split": "examples",
         "test_split": "n/a",
-        "guidelines": false
+        "guidelines": null
     },
     {
         "model": "ChatGPT",
@@ -37,7 +37,7 @@
         "train_split": "examples",
         "dev_split": "examples",
         "test_split": "n/a",
-        "guidelines": false
+        "guidelines": null
     },
     {
         "model": "ChatGPT",
@@ -45,7 +45,7 @@
         "train_split": "attributes",
         "dev_split": "attributes",
         "test_split": "n/a",
-        "guidelines": false
+        "guidelines": null
     },
     {
         "model": "ChatGPT",
@@ -53,7 +53,7 @@
         "train_split": "attributes",
         "dev_split": "attributes",
         "test_split": "n/a",
-        "guidelines": false
+        "guidelines": null
     },
     {
         "model": "ChatGPT",
@@ -61,7 +61,7 @@
         "train_split": "attributes",
         "dev_split": "attributes",
         "test_split": "n/a",
-        "guidelines": false
+        "guidelines": null
     },
     {
         "model": "ChatGPT",
@@ -69,6 +69,6 @@
         "train_split": "hallucinates",
         "dev_split": "n/a",
         "test_split": "hallucinates",
-        "guidelines": false
+        "guidelines": null
     }
 ]

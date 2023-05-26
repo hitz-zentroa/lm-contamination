@@ -25,7 +25,7 @@
                 "train_split": "examples",
                 "dev_split": "examples",
                 "test_split": "examples",
-                "guidelines": false
+                "guidelines": null
             },
             {
                 "model": "ChatGPT",
@@ -49,7 +49,7 @@
                 "train_split": "examples",
                 "dev_split": "examples",
                 "test_split": "n/a",
-                "guidelines": false
+                "guidelines": null
             },
             {
                 "model": "ChatGPT",
@@ -57,7 +57,7 @@
                 "train_split": "examples",
                 "dev_split": "examples",
                 "test_split": "n/a",
-                "guidelines": false
+                "guidelines": null
             },
             {
                 "model": "ChatGPT",
@@ -65,7 +65,7 @@
                 "train_split": "attributes",
                 "dev_split": "attributes",
                 "test_split": "n/a",
-                "guidelines": false
+                "guidelines": null
             },
             {
                 "model": "ChatGPT",
@@ -73,7 +73,7 @@
                 "train_split": "attributes",
                 "dev_split": "attributes",
                 "test_split": "n/a",
-                "guidelines": false
+                "guidelines": null
             },
             {
                 "model": "ChatGPT",
@@ -81,7 +81,7 @@
                 "train_split": "attributes",
                 "dev_split": "attributes",
                 "test_split": "n/a",
-                "guidelines": false
+                "guidelines": null
             },
             {
                 "model": "ChatGPT",
@@ -89,7 +89,7 @@
                 "train_split": "hallucinates",
                 "dev_split": "n/a",
                 "test_split": "hallucinates",
-                "guidelines": false
+                "guidelines": null
             }
         ]
 
@@ -143,8 +143,10 @@
                     }
                     if (tableInfo[i].guidelines) {
                         html += "<td>✔️</td>";
-                    } else {
+                    } else if (tableInfo[i].guidelines == false) {
                         html += "<td>❌</td>";
+                    } else {
+                        html += "<td></td>";
                     }
                     table_ref.innerHTML += html + "</tr>";
                 }
