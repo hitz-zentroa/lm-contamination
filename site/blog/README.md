@@ -21,7 +21,7 @@ Briefly, we say that a model is contaminated when it has been trained on validat
 A simple way to detect if a LM has already seen any particular dataset is by asking to generate the dataset itself. We are going to make use of the memorization capabilities of the LM to detect contamination cases. For instance, regarding a very popular Named Entity Recognition (NER) dataset, CoNLL-03, we asked ChatGPT to generate the first instances of the dataset train split, which are the following:
 > [EU]<sub>ORG</sub> rejects [German]<sub>MISC</sub> call to boycott [British]<sub>MISC</sub> lamb. [Peter Blackburn]<sub>PER</sub>. [BRUSSELS]<sub>LOC</sub> 1996-08-22.
 
-As seen below in Figure 1, the model generated the text and labels perfectly i.e., that EU is an organization, German and British are miscellaneous, Peter Blackburn is a person and BRUSSELS is a location. In fact, the model is able to generate the validation and even the test splits, including annotation errors such as China labeled as a person. A quick search on Google shows that at least 3 papers (one of them was actually accepted for the top scientific conference ACL 2023) did  evaluate either ChatGPT or Codex (another closed LM) as a zero-shot or few-shot NER system [1, 2, 3]. BTW, the performance of ChatGPT on CoNLL03 improved by almost 9 F1 points from the first paper (February 20th) to the second paper (May 23rd) for unknown reasons, but that’s another story beyond this post.
+As seen below in Figure 1, the model generated the text and labels perfectly i.e., that EU is an organization, German and British are miscellaneous, Peter Blackburn is a person and BRUSSELS is a location. In fact, the model is able to generate the validation and even the test splits, including annotation errors such as China labeled as a person. A quick search on Google shows that at least 3 papers (one of them was actually accepted for the top scientific conference ACL 2023) did  evaluate either ChatGPT or Codex (another closed LM) as a zero-shot or few-shot NER system [[1, 2, 3](#references)]. BTW, the performance of ChatGPT on CoNLL03 **improved by almost 9 F1 points** from the first paper (February 20th) to the second paper (May 23rd) for unknown reasons, but that’s another story beyond this post.
 
 ![An example of ChatGPT generating the CoNLL03 dataset.](imgs/CoNLL03_train_small.png)
 
@@ -39,11 +39,38 @@ By applying this prompt to diverse NLP tasks, we found that ChatGPT is capable o
 
 In the following table we summarize the findings of our experiment for some popular datasets that the authors were familiar with.
 
-[table]
+
 |**Dataset**|**Task**|**Release date**|**Train split**|**Dev split**|**Test split**|**Guidelines**|
 |:----------|:-------|:---------------|:--------------|:------------|:-------------|:------------:|
 |CoNLL03    | IE     | 2003           |[<img src="https://img.shields.io/badge/-Examples%20-red">]() | [<img src="https://img.shields.io/badge/-Examples%20-red">]() | [<img src="https://img.shields.io/badge/-Examples%20-red">]() | |
 |ACE05      | IE     | 2005           |[<img src="https://img.shields.io/badge/-Attributes%20-blue">]() | [<img src="https://img.shields.io/badge/-Attributes%20-blue">]() | [<img src="https://img.shields.io/badge/-Attributes%20-blue">]() | ✔️ |
 |OntoNotes  | IE     | 2013           |[<img src="https://img.shields.io/badge/-Hallucinates%20-green">]() | [<img src="https://img.shields.io/badge/-Hallucinates%20-green">]() |[<img src="https://img.shields.io/badge/-Hallucinates%20-green">]() | ✔️ |
+|SQuAD      | QA     | 2018           |[<img src="https://img.shields.io/badge/-Examples%20-red">]() | [<img src="https://img.shields.io/badge/-Examples%20-red">]() | [<img src="https://img.shields.io/badge/-N/A%20-grey" >]() |  |
+|MNLI       | NLI    | 2018           |[<img src="https://img.shields.io/badge/-Examples%20-red">]() | [<img src="https://img.shields.io/badge/-Examples%20-red">]() | [<img src="https://img.shields.io/badge/-N/A%20-grey">]() |  |
+|QuAC       | QA     | 2019           |[<img src="https://img.shields.io/badge/-Attributes%20-blue">]() | [<img src="https://img.shields.io/badge/-Attributes%20-blue">]() | [<img src="https://img.shields.io/badge/-N/A%20-grey">]() |  |
+|Natural Questions | QA | 2019        |[<img src="https://img.shields.io/badge/-Attributes%20-blue">]() | [<img src="https://img.shields.io/badge/-Attributes%20-blue">]() | [<img src="https://img.shields.io/badge/-N/A%20-grey">]() |  |
+|BoolQ      | QA/TC  | 2019           |[<img src="https://img.shields.io/badge/-Attributes%20-blue">]() | [<img src="https://img.shields.io/badge/-Attributes%20-blue">]() | [<img src="https://img.shields.io/badge/-N/A%20-grey">]() |  |
+|GSM8K      | Reasoning | 2021        |[<img src="https://img.shields.io/badge/-Hallucinates%20-green">]() | [<img src="https://img.shields.io/badge/-N/A%20-grey">]() | [<img src="https://img.shields.io/badge/-Hallucinates%20-green">]() |  |
+
+The results in this table show that many academic benchmarks that we analyzed were fed as training data to ChatGPT. While the current list of datasets that we present is not exhaustive, we have no reason to believe that other publicly available dataset were intentionally excluded from the training corpora of ChatGPT. 
+
+All the experiments that we present in this blog have been conducted on top of ChatGPT, which is a black box LLM for which no architecture or training data information has been released. It is worth noting that although we focus on black box LLMs, we do not consider the issue of dataset contamination to be solved when using publicly available LLMs. We encourage the researchers to release the documents that were used as training data, properly documented and fully accessible, in order to allow for external auditing to be able to ensure that they were not contaminated. In this regard, tools like the ROOTS search tool [[4](#references)], released under the BigScience workshop, are a great example of how to disclose the training data, a. And allow researchers to perform queries on the ROOTS corpus, which was used to train Bloom LLM models [[5](#references)].
+
+## Call for action
+Contamination on LLMs is a significant concern when it comes to evaluating their performance. As a community, it is crucial for us to address this issue and to develop effective solutions. For instance, a quick search on the ROOTS search tool allowed us to verify that only the first sentence of CoNLL03 and its annotations exist on the ROOTS corpus. In this blog we have shown some initial findings on ChatGPT’s memorization of various popular datasets, including their test sets. Contamination on train and validation splits compromises the model’s suitability for zero/few-shot experiments. More importantly,  the presence of contamination within the test set invalidates every evaluation. One recommendation stemming from our research is to cease using LLMs that do not properly document training data in scientific papers until there is proof they are not contaminated. In the same way, the program committees should exercise caution when accepting papers including such experiments.
+
+We are actively working to expand the scope of datasets and models analyzed. By including a wider range of datasets and models we want to define guidelines on which dataset/model combinations are not valid for evaluation. In addition to expanding our analysis, we are also interested in devising automatic methods for measuring contamination on academic datasets. 
+
+The amount of datasets and models is daunting. We are thus envisioning a community effort. **If you are passionate about NLP research and want to contribute against contamination in LLM evaluation, please reach out to us and check the GitHub repo below.** 
+
+We will post all data and findings as we collect them in github. For more information visit: https://github.com/hitz-zentroa/lm-contamination
+
+
+## References
+1. Wei X., Cui X., Cheng N., Wang X., Zhang X., Huang S., Xie P., Xu J., Chen Y., Zhang M., Jiang Y., and Han W. 2023. [Zero-Shot Information Extraction via Chatting with ChatGPT.](https://arxiv.org/abs/2302.10205) ArXiv.
+2. Li B., Fang G., Yang Y., Wang Q., Ye W., Zhao W., and Zhang S. 2023. [Evaluating ChatGPT’s Information Extraction Capabilities: An Assessment of Performance, Explainability, Calibration, and Faithfulness.](https://arxiv.org/abs/2304.11633) ArXiv.
+3. Li P., Sun T., Tang Q., Yan H., Wu Y., Huang X., and Qiu X. 2023. [CodeIE: Large Code Generation Models are Better Few-Shot Information Extractors.](https://arxiv.org/abs/2305.05711) In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada. Association for Computational Linguistics.
+4. Piktus, A., Akiki, C., Villegas, P., Laurençon, H., Dupont, G., Luccioni, A. S., ... & Rogers, A. (2023). [The roots search tool: Data transparency for llms.](https://arxiv.org/abs/2302.14035) ArXiv
+5. Scao, T. L., Fan, A., Akiki, C., Pavlick, E., Ilić, S., Hesslow, D., ... & Manica, M. (2022). [Bloom: A 176b-parameter open-access multilingual language model.](https://arxiv.org/abs/2211.05100) ArXiv 
 
 
