@@ -65,7 +65,7 @@ We are actively working to expand the scope of datasets and models analyzed. By 
 
 The amount of datasets and models is daunting. We are thus envisioning a community effort. **If you are passionate about NLP research and want to contribute against contamination in LLM evaluation, please reach out to us and check the GitHub repo below.** 
 
-We will post all data and findings as we collect them in github. For more information visit: https://github.com/hitz-zentroa/lm-contamination
+We will post all data and findings as we collect them in github. For more information visit: [https://github.com/hitz-zentroa/lm-contamination](https://github.com/hitz-zentroa/lm-contamination)
 
 
 ## References
