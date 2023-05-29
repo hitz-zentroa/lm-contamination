@@ -1,5 +1,7 @@
 # Did ChatGPT cheat on your test?
-**Authors:** [Oscar Sainz](https://osainz59.github.io/), [Jon Ander Campos](), [Iker Garcia-Ferrero](), [Julen Etxaniz](), [Eneko Agirre]()
+**Authors:** [Oscar Sainz](https://osainz59.github.io/), [Jon Ander Campos](https://twitter.com/jaa_campos), [Iker Garcia-Ferrero](https://ikergarcia1996.github.io/Iker-Garcia-Ferrero/), [Julen Etxaniz](https://julenetxaniz.eus/), [Eneko Agirre](https://eagirre.github.io/)
+
+**TL;DR** *Large Language Models have seen trillions of tokens. However, who knows what is inside? Recent works have evaluated those models in many different tasks, but, did they make sure the model had not already seen the training or even the evaluation datasets? In this blog post, we show that some popular benchmark datasets are already memorized by ChatGPT and that one can prompt ChatGPT to regenerate them.*
 
 It has been six months since ChatGPT was publicly released. At the moment, the surprisingly good performance spread its popularity beyond the research community, reaching the general public through the media. That was the inflexion point when Language Models (LM), which were previously used as engines to power different products, became products by themselves.
 
