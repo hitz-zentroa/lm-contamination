@@ -25,10 +25,10 @@ The first prompt is intended to be used with instruction tuned models, whereas t
 
 There could be different levels of contamination, and, as we are measuring them by the memorization level of the LM, we are using the following guidelines:
 
-* If the model is able to generate examples of the dataset (text and labels), then we say that the model generates **examples**.
-* If the model is able to generate characteristic attributes such as data format, ids, or other relevant information that characterizes the dataset, we say that the model generates **attributes**.
-* If the model is not able to generate anything that is reflected on the origianl dataset we consider that the model **hallucinates**.
-* If an specific split of the dataset is not publicly available, we set the `n/a` label.
+* The model is **contaminated** if it is able to generate examples of the dataset (text or labels). 
+* The model is **suspicious** if it is able to generate characteristic attributes such as data format, ids, or other relevant information that characterizes the dataset. 
+* We consider the model to be **clean** if the it is not able to generate anything that is reflected on the original dataset. 
+* If an specific split of a dataset is not publicly available we use the label `n/a`. 
 
 **How to post the results**
 
