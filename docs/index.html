@@ -20,48 +20,48 @@
                     html = "<tr><td>" + tableInfo[i].model + "</td><td>" + tableInfo[i].dataset + "</td>";
 
                     switch (tableInfo[i].train_split) {
-                        case "examples":
-                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Examples%20-red"></td>';
+                        case "contaminated":
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Contaminated%20-red"></td>';
                             break;
-                        case "attributes":
-                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Attributes%20-blue"></td>';
+                        case "suspicious":
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Suspicious%20-orange"></td>';
                             break;
-                        case "hallucinates":
-                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Hallucinates%20-green"></td>';
+                        case "clean":
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Clean%20-green"></td>';
                             break;
                         default:
                             html += '<td class="text-center"><img src="https://img.shields.io/badge/-N/A%20-grey"></td>';
                     }
                     switch (tableInfo[i].dev_split) {
-                        case "examples":
-                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Examples%20-red"></td>';
+                        case "contaminated":
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Contaminated%20-red"></td>';
                             break;
-                        case "attributes":
-                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Attributes%20-blue"></td>';
+                        case "suspicious":
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Suspicious%20-orange"></td>';
                             break;
-                        case "hallucinates":
-                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Hallucinates%20-green"></td>';
+                        case "clean":
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Clean%20-green"></td>';
                             break;
                         default:
                             html += '<td class="text-center"><img src="https://img.shields.io/badge/-N/A%20-grey"></td>';
                     }
                     switch (tableInfo[i].test_split) {
-                        case "examples":
-                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Examples%20-red"></td>';
+                        case "contaminated":
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Contaminated%20-red"></td>';
                             break;
-                        case "attributes":
-                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Attributes%20-blue"></td>';
+                        case "suspicious":
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Suspicious%20-orange"></td>';
                             break;
-                        case "hallucinates":
-                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Hallucinates%20-green"></td>';
+                        case "clean":
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Clean%20-green"></td>';
                             break;
                         default:
                             html += '<td class="text-center"><img src="https://img.shields.io/badge/-N/A%20-grey"></td>';
                     }
                     if (tableInfo[i].guidelines) {
-                        html += '<td class="text-center">✔️</td>';
+                        html += '<td class="text-center"><img src="https://img.shields.io/badge/-Suspicious%20-orange"></td>';
                     } else if (tableInfo[i].guidelines == false) {
-                        html += '<td class="text-center">❌</td>';
+                        html += '<td class="text-center"><img src="https://img.shields.io/badge/-Clean%20-green"></td>';
                     } else {
                         html += '<td class="text-center"></td>';
                     }
