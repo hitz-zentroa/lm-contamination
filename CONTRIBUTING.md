@@ -29,3 +29,7 @@ There could be different levels of contamination, and, as we are measuring them 
 * If the model is able to generate characteristic attributes such as data format, ids, or other relevant information that characterizes the dataset, we say that the model generates **attributes**.
 * If the model is not able to generate anything that is reflected on the origianl dataset we consider that the model **hallucinates**.
 * If an specific split of the dataset is not publicly available, we set the `n/a` label.
+
+**How to post the results**
+
+In addition to the results, we would like to see the ammount of executions needed to obtain the result and a screenshoot that serves as "evidence". Results can be asked to be replicated by another independent person, but screenshoots always helps.
