@@ -10,152 +10,79 @@
     <script>
         var tableInfo = [];
         var url = "https://raw.githubusercontent.com/hitz-zentroa/lm-contamination/main/data.json"
-        // fetch(url).then(function (response) {
-        //     return response.json();
-        // }).then(function (data) {
-        //     console.log(data);
-        // }).catch(function (err) {
-        //     console.log('Fetch Error :-S', err);
-        // });
-        // Placeholder, remove at publication
-        tableInfo = [
-            {
-                "model": "ChatGPT",
-                "dataset": "CoNLL03",
-                "train_split": "examples",
-                "dev_split": "examples",
-                "test_split": "examples",
-                "guidelines": null
-            },
-            {
-                "model": "ChatGPT",
-                "dataset": "ACE05",
-                "train_split": "attributes",
-                "dev_split": "attributes",
-                "test_split": "attributes",
-                "guidelines": true
-            },
-            {
-                "model": "ChatGPT",
-                "dataset": "OntoNotes",
-                "train_split": "hallucinates",
-                "dev_split": "hallucinates",
-                "test_split": "hallucinates",
-                "guidelines": true
-            },
-            {
-                "model": "ChatGPT",
-                "dataset": "SQuAD",
-                "train_split": "examples",
-                "dev_split": "examples",
-                "test_split": "n/a",
-                "guidelines": null
-            },
-            {
-                "model": "ChatGPT",
-                "dataset": "MNLI",
-                "train_split": "examples",
-                "dev_split": "examples",
-                "test_split": "n/a",
-                "guidelines": null
-            },
-            {
-                "model": "ChatGPT",
-                "dataset": "QuAC",
-                "train_split": "attributes",
-                "dev_split": "attributes",
-                "test_split": "n/a",
-                "guidelines": null
-            },
-            {
-                "model": "ChatGPT",
-                "dataset": "Natural Questions",
-                "train_split": "attributes",
-                "dev_split": "attributes",
-                "test_split": "n/a",
-                "guidelines": null
-            },
-            {
-                "model": "ChatGPT",
-                "dataset": "BoolQ",
-                "train_split": "attributes",
-                "dev_split": "attributes",
-                "test_split": "n/a",
-                "guidelines": null
-            },
-            {
-                "model": "ChatGPT",
-                "dataset": "GSM8K",
-                "train_split": "hallucinates",
-                "dev_split": "n/a",
-                "test_split": "hallucinates",
-                "guidelines": null
-            }
-        ]
-
+        
         function updateTable() {
             let table_ref = document.getElementById("tableBody");
             table_ref.innerHTML = "";
             let query = document.getElementById("query").value;
-            console.log(query);
             for (let i = 0; i < tableInfo.length; i++) {
                 if (query == "" || tableInfo[i].model.toLowerCase().includes(query.toLowerCase()) || tableInfo[i].dataset.toLowerCase().includes(query.toLowerCase())) {
                     html = "<tr><td>" + tableInfo[i].model + "</td><td>" + tableInfo[i].dataset + "</td>";
 
                     switch (tableInfo[i].train_split) {
                         case "examples":
-                            html += '<td><img src="https://img.shields.io/badge/-Examples%20-red"></td>';
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Examples%20-red"></td>';
                             break;
                         case "attributes":
-                            html += '<td><img src="https://img.shields.io/badge/-Attributes%20-blue"></td>';
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Attributes%20-blue"></td>';
                             break;
                         case "hallucinates":
-                            html += '<td><img src="https://img.shields.io/badge/-Hallucinates%20-green"></td>';
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Hallucinates%20-green"></td>';
                             break;
                         default:
-                            html += '<td><img src="https://img.shields.io/badge/-N/A%20-grey"></td>';
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-N/A%20-grey"></td>';
                     }
                     switch (tableInfo[i].dev_split) {
                         case "examples":
-                            html += '<td><img src="https://img.shields.io/badge/-Examples%20-red"></td>';
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Examples%20-red"></td>';
                             break;
                         case "attributes":
-                            html += '<td><img src="https://img.shields.io/badge/-Attributes%20-blue"></td>';
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Attributes%20-blue"></td>';
                             break;
                         case "hallucinates":
-                            html += '<td><img src="https://img.shields.io/badge/-Hallucinates%20-green"></td>';
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Hallucinates%20-green"></td>';
                             break;
                         default:
-                            html += '<td><img src="https://img.shields.io/badge/-N/A%20-grey"></td>';
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-N/A%20-grey"></td>';
                     }
                     switch (tableInfo[i].test_split) {
                         case "examples":
-                            html += '<td><img src="https://img.shields.io/badge/-Examples%20-red"></td>';
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Examples%20-red"></td>';
                             break;
                         case "attributes":
-                            html += '<td><img src="https://img.shields.io/badge/-Attributes%20-blue"></td>';
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Attributes%20-blue"></td>';
                             break;
                         case "hallucinates":
-                            html += '<td><img src="https://img.shields.io/badge/-Hallucinates%20-green"></td>';
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-Hallucinates%20-green"></td>';
                             break;
                         default:
-                            html += '<td><img src="https://img.shields.io/badge/-N/A%20-grey"></td>';
+                            html += '<td class="text-center"><img src="https://img.shields.io/badge/-N/A%20-grey"></td>';
                     }
                     if (tableInfo[i].guidelines) {
-                        html += "<td>✔️</td>";
+                        html += '<td class="text-center">✔️</td>';
                     } else if (tableInfo[i].guidelines == false) {
-                        html += "<td>❌</td>";
+                        html += '<td class="text-center">❌</td>';
                     } else {
-                        html += "<td></td>";
+                        html += '<td class="text-center"></td>';
                     }
                     table_ref.innerHTML += html + "</tr>";
                 }
             }
         }
+        
+        
+        fetch(url).then(function (response) {
+            return response.json();
+        }).then(function (data) {
+            tableInfo = data;
+            updateTable();
+        }).catch(function (err) {
+            console.log('Fetch Error :-S', err);
+        });
     </script>
 </head>
 
-<body onload="updateTable()">
+<body>
 
     <div class="container">
         <div class="d-flex justify-content-center py-5">
@@ -173,10 +100,10 @@
                     <tr>
                         <th scope="col">Model</th>
                         <th scope="col">Dataset</th>
-                        <th scope="col">Train split</th>
-                        <th scope="col">Dev split</th>
-                        <th scope="col">Test split</th>
-                        <th scope="col">Guidelines</th>
+                        <th scope="col" class="text-center">Train split</th>
+                        <th scope="col" class="text-center">Dev split</th>
+                        <th scope="col" class="text-center">Test split</th>
+                        <th scope="col" class="text-center">Guidelines</th>
                     </tr>
                 </thead>
                 <tbody id="tableBody">
