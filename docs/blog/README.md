@@ -60,7 +60,7 @@ By applying this prompt to diverse NLP tasks, we found that ChatGPT is capable o
 
 
 <p align="justify">
-In the following table we summarize the findings of our experiment for some popular datasets that the authors were familiar with.
+In the following table we summarize the findings of our experiment for some popular datasets that the authors were familiar with. We say that the model is contaminated if it is able to generate examples of the dataset (text and labels). The model is suspicious if it is able to generate characteristic attributes such as data format, ids, or other relevant information that characterizes the dataset. We consider the model to be clean if it is not able to generate anything that is reflected on the original dataset. If an specific split of a dataset is not publicly available we use the label n/a.
 </p>
 
 |<b>Dataset</b>|<b>Task</b>|<b>Release date</b>|<b>Train split</b>|<b>Dev split</b>|<b>Test split</b>|<b>Guidelines</b>|
