@@ -22,7 +22,7 @@ The point is that ChatGPT and other LMs as a service are <b>products</b>. And th
 
 ## Contamination and memorization
 <p align="justify">
-There is enough evidence of evaluation issues with LLMs. On the first days after releasing GPT-4, Horace He ([@cHHillee](https://twitter.com/cHHillee) on Twitter) showed how the model solved the easiest code competition problems until 2021, the training cutoff. For any problem after that date instead, none was solved correctly. As pointed out by Horace He, <i>“this strongly points to contamination”</i>.
+There is enough evidence of evaluation issues with LLMs. On the first days after releasing GPT-4, Horace He (<a href="https://twitter.com/cHHillee">@cHHillee</a> on Twitter) showed how the model solved the easiest code competition problems until 2021, the training cutoff. For any problem after that date instead, none was solved correctly. As pointed out by Horace He, <i>“this strongly points to contamination”</i>.
 </p>
 
 <blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">I suspect GPT-4&#39;s performance is influenced by data contamination, at least on Codeforces.<br><br>Of the easiest problems on Codeforces, it solved 10/10 pre-2021 problems and 0/10 recent problems.<br><br>This strongly points to contamination.<br><br>1/4</p>&mdash; Horace He (@cHHillee) <a href="https://twitter.com/cHHillee/status/1635790330854526981?ref_src=twsrc%5Etfw">March 14, 2023</a></blockquote>
@@ -37,7 +37,7 @@ A simple way to detect if a LM has already seen any particular dataset is by ask
 > [EU]<sub>ORG</sub> rejects [German]<sub>MISC</sub> call to boycott [British]<sub>MISC</sub> lamb. [Peter Blackburn]<sub>PER</sub>. [BRUSSELS]<sub>LOC</sub> 1996-08-22.
 
 <p align="justify">
-As seen below in Figure 1, the model generated the text and labels perfectly i.e., that EU is an organization, German and British are miscellaneous, Peter Blackburn is a person and BRUSSELS is a location. In fact, the model is able to generate the validation and even the test splits, including annotation errors such as China labeled as a person. A quick search on Google shows that at least 3 papers (one of them was actually accepted for the top scientific conference ACL 2023) did  evaluate either ChatGPT or Codex (another closed LM) as a zero-shot or few-shot NER system [[1, 2, 3](#references)]. BTW, the performance of ChatGPT on CoNLL03 <b>improved by almost 9 F1 points</b>from the first paper (February 20th) to the second paper (May 23rd) for unknown reasons, but that’s another story beyond this post.
+As seen below in Figure 1, the model generated the text and labels perfectly i.e., that EU is an organization, German and British are miscellaneous, Peter Blackburn is a person and BRUSSELS is a location. In fact, the model is able to generate the validation and even the test splits, including annotation errors such as China labeled as a person. A quick search on Google shows that at least 3 papers (one of them was actually accepted for the top scientific conference ACL 2023) did  evaluate either ChatGPT or Codex (another closed LM) as a zero-shot or few-shot NER system [<a href="#references">1, 2, 3</a>]. BTW, the performance of ChatGPT on CoNLL03 <b>improved by almost 9 F1 points</b>from the first paper (February 20th) to the second paper (May 23rd) for unknown reasons, but that’s another story beyond this post.
 </p>
 
 ![An example of ChatGPT generating the CoNLL03 dataset.](imgs/CoNLL03_train_small.png)
@@ -77,10 +77,10 @@ In the following table we summarize the findings of our experiment for some popu
 
 
 <p align="justify">
-The results in this table show that many academic benchmarks that we analyzed were fed as training data to ChatGPT. While the current list of datasets that we present is not exhaustive, we have no reason to believe that other publicly available dataset were intentionally excluded from the training corpora of ChatGPT. You can find the full table of experiments on the [LM Contamination Index](https://hitz-zentroa.github.io/lm-contamination)
+The results in this table show that many academic benchmarks that we analyzed were fed as training data to ChatGPT. While the current list of datasets that we present is not exhaustive, we have no reason to believe that other publicly available dataset were intentionally excluded from the training corpora of ChatGPT. You can find the full table of experiments on the <a href="https://hitz-zentroa.github.io/lm-contamination">LM Contamination Index</a>
 </p>
 <p align="justify">
-All the experiments that we present in this blog have been conducted on top of ChatGPT, which is a black box LLM for which no architecture or training data information has been released. It is worth noting that although we focus on black box LLMs, we do not consider the issue of dataset contamination to be solved when using publicly available LLMs. We encourage the researchers to release the documents that were used as training data, properly documented and <b>fully accessible</b>, in order to allow for external auditing to be able to ensure that they were not contaminated. In this regard, tools like the ROOTS search tool [[4](#references)], released under the BigScience workshop, are a great example of how to disclose the training data, and allow researchers to perform queries on the ROOTS corpus, which was used to train Bloom LLM models [[5](#references)].
+All the experiments that we present in this blog have been conducted on top of ChatGPT, which is a black box LLM for which no architecture or training data information has been released. It is worth noting that although we focus on black box LLMs, we do not consider the issue of dataset contamination to be solved when using publicly available LLMs. We encourage the researchers to release the documents that were used as training data, properly documented and <b>fully accessible</b>, in order to allow for external auditing to be able to ensure that they were not contaminated. In this regard, tools like the ROOTS search tool [<a href="#references">4</a>], released under the BigScience workshop, are a great example of how to disclose the training data, and allow researchers to perform queries on the ROOTS corpus, which was used to train Bloom LLM models [<a href="#references">5</a>].
 </p>
 
 ## Call for action
@@ -94,7 +94,7 @@ We are actively working to expand the scope of datasets and models analyzed. By 
 The amount of datasets and models is daunting. We are thus envisioning a community effort. <b>If you are passionate about NLP research and want to contribute against contamination in LLM evaluation, please reach out to us and check the GitHub repo below.</b>
 </p>
 <p align="justify">
-We will post all data and findings as we collect them in github. For more information visit: [https://github.com/hitz-zentroa/lm-contamination](https://github.com/hitz-zentroa/lm-contamination)
+We will post all data and findings as we collect them in github. For more information visit: <a href="https://github.com/hitz-zentroa/lm-contamination">https://github.com/hitz-zentroa/lm-contamination</a>
 </p>
 
 ## References
