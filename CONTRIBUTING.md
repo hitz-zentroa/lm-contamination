@@ -32,4 +32,4 @@ There could be different levels of contamination, and, as we are measuring them 
 
 **How to post the results**
 
-In addition to the results, we would like to see the ammount of executions needed to obtain the result and a screenshoot that serves as "evidence". Results can be asked to be replicated by another independent person, but screenshoots always helps.
+In addition to the results, we would like to see the ammount of executions needed to obtain the result and a screenshot that serves as "evidence". Results can be asked to be replicated by another independent person, but screenshots always helps.
