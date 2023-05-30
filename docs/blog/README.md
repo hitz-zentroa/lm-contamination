@@ -1,3 +1,6 @@
+<img src="imgs/hitz_logo.png" width="300"></img>
+
+
 # Did ChatGPT cheat on your test?
 <b>Authors:</b> [Oscar Sainz](https://osainz59.github.io/), [Jon Ander Campos](https://twitter.com/jaa_campos), [Iker García-Ferrero](https://ikergarcia1996.github.io/Iker-Garcia-Ferrero/), [Julen Etxaniz](https://julenetxaniz.eus/), [Eneko Agirre](https://eagirre.github.io/)
 
@@ -103,5 +106,4 @@ We will post all data and findings as we collect them in github. For more inform
 3. Li P., Sun T., Tang Q., Yan H., Wu Y., Huang X., and Qiu X. 2023. [CodeIE: Large Code Generation Models are Better Few-Shot Information Extractors.](https://arxiv.org/abs/2305.05711) In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada. Association for Computational Linguistics.
 4. Piktus, A., Akiki, C., Villegas, P., Laurençon, H., Dupont, G., Luccioni, A. S., ... & Rogers, A. (2023). [The roots search tool: Data transparency for llms.](https://arxiv.org/abs/2302.14035) ArXiv
 5. Scao, T. L., Fan, A., Akiki, C., Pavlick, E., Ilić, S., Hesslow, D., ... & Manica, M. (2022). [Bloom: A 176b-parameter open-access multilingual language model.](https://arxiv.org/abs/2211.05100) ArXiv 
-
 
