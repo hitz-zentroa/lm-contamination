@@ -70,5 +70,13 @@
         "dev_split": "n/a",
         "test_split": "clean",
         "guidelines": null
+    },
+    {
+        "model": "ChatGPT",
+        "dataset": "ToTTo",
+        "train_split": "suspicious",
+        "dev_split": "suspicious",
+        "test_split": "suspicious",
+        "guidelines": null
     }
 ]
