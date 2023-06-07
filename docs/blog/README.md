@@ -1,4 +1,4 @@
-<img src="imgs/hitz_logo.png" width="300">
+<a href="https://hitz.ehu.eus/"><img src="imgs/hitz_logo.png" width="300"></a>
 
 
 # Did ChatGPT cheat on your test?
