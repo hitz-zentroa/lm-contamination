@@ -1,5 +1,5 @@
 <a href="https://hitz.ehu.eus/"><img src="imgs/hitz_logo.png" width="300"></a>
-[![HiTZ logo](imgs/hitz_logo.png)](https://hitz.ehu.eus/)
+
 
 # Did ChatGPT cheat on your test?
 <b>Authors:</b> [Oscar Sainz](https://osainz59.github.io/), [Jon Ander Campos](https://twitter.com/jaa_campos), [Iker García-Ferrero](https://ikergarcia1996.github.io/Iker-Garcia-Ferrero/), [Julen Etxaniz](https://julenetxaniz.eus/), [Eneko Agirre](https://eagirre.github.io/)
