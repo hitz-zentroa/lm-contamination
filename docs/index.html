@@ -41,10 +41,10 @@
                             break
                         default:
                             html += '<td class="text-center"></td>';
-                        }
+                    }
                     switch (tableInfo[i].dev_split) {
                         case "contaminated":
-                        if (tableInfo[i].dev_percent) {
+                            if (tableInfo[i].dev_percent) {
                                 html += '<td class="text-center"><img src="https://img.shields.io/badge/-(' + tableInfo[i].dev_percent + '%25)_Contaminated%20-red"></td>';
                             } else {
                                 html += '<td class="text-center"><img src="https://img.shields.io/badge/-Contaminated%20-red"></td>';
@@ -64,7 +64,7 @@
                     }
                     switch (tableInfo[i].test_split) {
                         case "contaminated":
-                        if (tableInfo[i].test_percent) {
+                            if (tableInfo[i].test_percent) {
                                 html += '<td class="text-center"><img src="https://img.shields.io/badge/-(' + tableInfo[i].test_percent + '%25)_Contaminated%20-red"></td>';
                             } else {
                                 html += '<td class="text-center"><img src="https://img.shields.io/badge/-Contaminated%20-red"></td>';
@@ -127,8 +127,8 @@
                 <ul>
                     <li>
                         The model is <img src="https://img.shields.io/badge/-Contaminated%20-red"> if it is able to
-                        generate examples of the dataset (text or labels). If the percentage is reported in a paper it
-                        is shown between brackets.
+                        generate examples of the dataset (text or labels). Or, in case of results reported by papers,
+                        the percentage of examples found inside the pre-training data.
                     </li>
                     <li>
                         The model is <img src="https://img.shields.io/badge/-Suspicious%20-yellow"> if it is able to

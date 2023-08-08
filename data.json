@@ -261,5 +261,101 @@
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "model": "GPT-3",
+        "dataset": "PIQA",
+        "train_split": null,
+        "dev_split": "contaminated",
+        "test_split": null,
+        "train_percent": null,
+        "dev_percent": 29,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "model": "GPT-3",
+        "dataset": "RACE-m",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 25,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "model": "GPT-3",
+        "dataset": "De->En 16",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 25,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "model": "GPT-3",
+        "dataset": "En->De 16",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 25,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "model": "GPT-3",
+        "dataset": "En->Ro 16",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 21,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "model": "GPT-3",
+        "dataset": "Ro->En 16",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 21,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "model": "GPT-3",
+        "dataset": "WebQs",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 21,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "model": "GPT-3",
+        "dataset": "ANLI R1",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 20,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2005.14165"
     }
 ]
