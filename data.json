@@ -5,7 +5,11 @@
         "train_split": "contaminated",
         "dev_split": "contaminated",
         "test_split": "contaminated",
-        "guidelines": null
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": ""
     },
     {
         "model": "ChatGPT",
@@ -13,7 +17,11 @@
         "train_split": "suspicious",
         "dev_split": "suspicious",
         "test_split": "suspicious",
-        "guidelines": true
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": true,
+        "source": ""
     },
     {
         "model": "ChatGPT",
@@ -21,15 +29,23 @@
         "train_split": "clean",
         "dev_split": "clean",
         "test_split": "clean",
-        "guidelines": true
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": true,
+        "source": ""
     },
     {
         "model": "ChatGPT",
-        "dataset": "SQuAD",
+        "dataset": "SQuADv2",
         "train_split": "contaminated",
         "dev_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
         "test_split": "n/a",
-        "guidelines": null
+        "guidelines": null,
+        "source": ""
     },
     {
         "model": "ChatGPT",
@@ -37,7 +53,11 @@
         "train_split": "contaminated",
         "dev_split": "contaminated",
         "test_split": "n/a",
-        "guidelines": null
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": ""
     },
     {
         "model": "ChatGPT",
@@ -45,7 +65,11 @@
         "train_split": "suspicious",
         "dev_split": "suspicious",
         "test_split": "n/a",
-        "guidelines": null
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": ""
     },
     {
         "model": "ChatGPT",
@@ -53,7 +77,11 @@
         "train_split": "suspicious",
         "dev_split": "suspicious",
         "test_split": "n/a",
-        "guidelines": null
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": ""
     },
     {
         "model": "ChatGPT",
@@ -61,7 +89,11 @@
         "train_split": "suspicious",
         "dev_split": "suspicious",
         "test_split": "n/a",
-        "guidelines": null
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": ""
     },
     {
         "model": "ChatGPT",
@@ -69,6 +101,153 @@
         "train_split": "clean",
         "dev_split": "n/a",
         "test_split": "clean",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
         "guidelines": null
+    },
+    {
+        "model": "GPT-3",
+        "dataset": "QuAC",
+        "train_split": null,
+        "dev_split": "contaminated",
+        "test_split": null,
+        "train_percent": null,
+        "dev_percent": 99,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "model": "GPT-3",
+        "dataset": "SQuADv2",
+        "train_split": null,
+        "dev_split": "contaminated",
+        "test_split": null,
+        "train_percent": null,
+        "dev_percent": 94,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "model": "GPT-3",
+        "dataset": "DROP",
+        "train_split": null,
+        "dev_split": "contaminated",
+        "test_split": null,
+        "train_percent": null,
+        "dev_percent": 93,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "model": "GPT-3",
+        "dataset": "Symbol Insertion",
+        "train_split": null,
+        "dev_split": "contaminated",
+        "test_split": null,
+        "train_percent": null,
+        "dev_percent": 86,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "model": "GPT-3",
+        "dataset": "CoQa",
+        "train_split": null,
+        "dev_split": "contaminated",
+        "test_split": null,
+        "train_percent": null,
+        "dev_percent": 64,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "model": "GPT-3",
+        "dataset": "ReCoRD",
+        "train_split": null,
+        "dev_split": "contaminated",
+        "test_split": null,
+        "train_percent": null,
+        "dev_percent": 61,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "model": "GPT-3",
+        "dataset": "Winograd",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 60,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "model": "GPT-3",
+        "dataset": "BoolQ",
+        "train_split": null,
+        "dev_split": "contaminated",
+        "test_split": null,
+        "train_percent": null,
+        "dev_percent": 60,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "model": "GPT-3",
+        "dataset": "MultiRC",
+        "train_split": null,
+        "dev_split": "contaminated",
+        "test_split": null,
+        "train_percent": null,
+        "dev_percent": 59,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "model": "GPT-3",
+        "dataset": "RACE-h",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 45,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "model": "GPT-3",
+        "dataset": "LAMBADA",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 43,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "model": "GPT-3",
+        "dataset": "WSC",
+        "train_split": null,
+        "dev_split": "contaminated",
+        "test_split": null,
+        "train_percent": null,
+        "dev_percent": 40,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2005.14165"
     }
 ]
