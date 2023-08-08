@@ -107,6 +107,18 @@
         "guidelines": null
     },
     {
+        "model": "ChatGPT",
+        "dataset": "ToTTo",
+        "train_split": "suspicious",
+        "dev_split": "suspicious",
+        "test_split": "suspicious",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": ""
+    },
+    {
         "model": "GPT-3",
         "dataset": "QuAC",
         "train_split": null,

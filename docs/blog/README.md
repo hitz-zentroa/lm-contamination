@@ -1,5 +1,8 @@
+<a href="https://hitz.ehu.eus/"><img src="imgs/hitz_logo.png" width="300"></a>
+
+
 # Did ChatGPT cheat on your test?
-<b>Authors:</b>[Oscar Sainz](https://osainz59.github.io/), [Jon Ander Campos](https://twitter.com/jaa_campos), [Iker Garcia-Ferrero](https://ikergarcia1996.github.io/Iker-Garcia-Ferrero/), [Julen Etxaniz](https://julenetxaniz.eus/), [Eneko Agirre](https://eagirre.github.io/)
+<b>Authors:</b> [Oscar Sainz](https://osainz59.github.io/), [Jon Ander Campos](https://twitter.com/jaa_campos), [Iker García-Ferrero](https://ikergarcia1996.github.io/Iker-Garcia-Ferrero/), [Julen Etxaniz](https://julenetxaniz.eus/), [Eneko Agirre](https://eagirre.github.io/)
 
 <p align="justify">
 <b>TL;DR</b> Large Language Models have seen trillions of tokens. However, who knows what is inside? Recent works have evaluated those models in many different tasks, but, did they make sure the model had not already seen the training or even the evaluation datasets? In this blog post, we show that some popular benchmark datasets are already memorized by ChatGPT and that one can prompt ChatGPT to regenerate them.
@@ -60,7 +63,7 @@ By applying this prompt to diverse NLP tasks, we found that ChatGPT is capable o
 
 
 <p align="justify">
-In the following table we summarize the findings of our experiment for some popular datasets that the authors were familiar with.
+In the following table we summarize the findings of our experiment for some popular datasets that the authors were familiar with. We say that the model is contaminated if it is able to generate examples of the dataset (text and labels). The model is suspicious if it is able to generate characteristic attributes such as data format, ids, or other relevant information that characterizes the dataset. We consider the model to be clean if it is not able to generate anything that is reflected on the original dataset. If an specific split of a dataset is not publicly available we use the label n/a.
 </p>
 
 |<b>Dataset</b>|<b>Task</b>|<b>Release date</b>|<b>Train split</b>|<b>Dev split</b>|<b>Test split</b>|<b>Guidelines</b>|
@@ -103,5 +106,4 @@ We will post all data and findings as we collect them in github. For more inform
 3. Li P., Sun T., Tang Q., Yan H., Wu Y., Huang X., and Qiu X. 2023. [CodeIE: Large Code Generation Models are Better Few-Shot Information Extractors.](https://arxiv.org/abs/2305.05711) In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics, Toronto, Canada. Association for Computational Linguistics.
 4. Piktus, A., Akiki, C., Villegas, P., Laurençon, H., Dupont, G., Luccioni, A. S., ... & Rogers, A. (2023). [The roots search tool: Data transparency for llms.](https://arxiv.org/abs/2302.14035) ArXiv
 5. Scao, T. L., Fan, A., Akiki, C., Pavlick, E., Ilić, S., Hesslow, D., ... & Manica, M. (2022). [Bloom: A 176b-parameter open-access multilingual language model.](https://arxiv.org/abs/2211.05100) ArXiv 
-
 
