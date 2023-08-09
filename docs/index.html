@@ -35,7 +35,30 @@
         var tableInfo = [];
         // var url = "https://raw.githubusercontent.com/hitz-zentroa/lm-contamination/main/data.json"
         var url = "../data.json"
+        var _last_sort_property = null
+        var _last_sort_order = 1
         console.log(url)
+
+        function sort_table(property) {
+            if (property != _last_sort_property) {
+                _last_sort_property = property;
+                _last_sort_order = 1;
+            } else {
+                _last_sort_order = -1 * _last_sort_order;
+            }
+            tableInfo.sort(dynamicSort(property, sortOrder=_last_sort_order))
+            updateTable()
+        }
+
+        function dynamicSort(property, sortOrder) {
+            return function (a,b) {
+                /* next line works with strings and numbers, 
+                * and you may want to customize it to your needs
+                */
+                var result = (a[property] < b[property]) ? -1 : (a[property] > b[property]) ? 1 : 1;
+                return result * sortOrder;
+            }
+        }
 
         function match_str_query(instance, query) {
             return (query == "" || instance.model.toLowerCase().includes(query.toLowerCase()) || instance.dataset.toLowerCase().includes(query.toLowerCase()));
@@ -206,13 +229,13 @@
             <table class="table table-striped table-hover table-bordered" id="table">
                 <thead>
                     <tr>
-                        <th scope="col">Model</th>
-                        <th scope="col">Dataset</th>
-                        <th scope="col" class="text-center">Train split</th>
-                        <th scope="col" class="text-center">Dev split</th>
-                        <th scope="col" class="text-center">Test split</th>
-                        <th scope="col" class="text-center">Guidelines</th>
-                        <th score="col" class="text-center">Source</th>
+                        <th scope="col" onclick="sort_table('model')">Model</th>
+                        <th scope="col" onclick="sort_table('dataset')">Dataset</th>
+                        <th scope="col" onclick="sort_table('train_split')" class="text-center">Train split</th>
+                        <th scope="col" onclick="sort_table('dev_split')" class="text-center">Dev split</th>
+                        <th scope="col" onclick="sort_table('test_split')" class="text-center">Test split</th>
+                        <th scope="col" onclick="sort_table('guidelines')" class="text-center">Guidelines</th>
+                        <th score="col" onclick="sort_table('source')" class="text-center">Source</th>
                     </tr>
                 </thead>
                 <tbody id="tableBody">
