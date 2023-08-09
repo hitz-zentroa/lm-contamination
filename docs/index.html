@@ -88,7 +88,7 @@
                     switch (tableInfo[i].train_split) {
                         case "contaminated":
                             if (tableInfo[i].train_percent) {
-                                html += '<td class="text-center"><img src="https://img.shields.io/badge/-(' + tableInfo[i].train_percent + '%25)_Contaminated%20-red"></td>';
+                                html += '<td class="text-center"><img src="https://img.shields.io/badge/-(' + tableInfo[i].train_percent.toFixed(1) + '%25)_Contaminated%20-red"></td>';
                             } else {
                                 html += '<td class="text-center"><img src="https://img.shields.io/badge/-Contaminated%20-red"></td>';
                             }
@@ -108,7 +108,7 @@
                     switch (tableInfo[i].dev_split) {
                         case "contaminated":
                             if (tableInfo[i].dev_percent) {
-                                html += '<td class="text-center"><img src="https://img.shields.io/badge/-(' + tableInfo[i].dev_percent + '%25)_Contaminated%20-red"></td>';
+                                html += '<td class="text-center"><img src="https://img.shields.io/badge/-(' + tableInfo[i].dev_percent.toFixed(1) + '%25)_Contaminated%20-red"></td>';
                             } else {
                                 html += '<td class="text-center"><img src="https://img.shields.io/badge/-Contaminated%20-red"></td>';
                             }
@@ -128,7 +128,7 @@
                     switch (tableInfo[i].test_split) {
                         case "contaminated":
                             if (tableInfo[i].test_percent) {
-                                html += '<td class="text-center"><img src="https://img.shields.io/badge/-(' + tableInfo[i].test_percent + '%25)_Contaminated%20-red"></td>';
+                                html += '<td class="text-center"><img src="https://img.shields.io/badge/-(' + tableInfo[i].test_percent.toFixed(1) + '%25)_Contaminated%20-red"></td>';
                             } else {
                                 html += '<td class="text-center"><img src="https://img.shields.io/badge/-Contaminated%20-red"></td>';
                             }
