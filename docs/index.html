@@ -78,10 +78,11 @@
             } else {
                 var match_fn = match_str_query;
             }
-
+            let count = 0
             for (let i = 0; i < tableInfo.length; i++) {
                 // if (query == "" || tableInfo[i].model.toLowerCase().includes(query.toLowerCase()) || tableInfo[i].dataset.toLowerCase().includes(query.toLowerCase())) {
                 if (match_fn(tableInfo[i], query)) {
+                    count++;
                     html = "<tr><td>" + tableInfo[i].model + "</td><td>" + tableInfo[i].dataset + "</td>";
 
                     switch (tableInfo[i].train_split) {
@@ -158,6 +159,7 @@
                     }
                     table_ref.innerHTML += html + "</tr>";
                 }
+                document.getElementById("elements-found").innerText = "Rows: " + count
             }
         }
 
@@ -214,7 +216,7 @@
             <p>The source indicates whether the information comes from user reports in the repository or from a paper.
             </p>
         </div>
-        <div class="d-flex justify-content-center pb-5">
+        <div class="d-flex justify-content-center pb-4">
             <div class="input-group w-50">
                 <div class="input-group-text">
                     <input type="checkbox" aria-label="regexp" id="regexp_check" name="regexp_check"
@@ -225,7 +227,12 @@
                 <input type="text" class="form-control text-center" oninput="updateTable()" id="query"
                     placeholder="Type to filter...">
             </div>
+            
         </div>
+        <div class="justify-content-center">
+            <p id="elements-found"></p>
+        </div>
+        
         <div class="d-flex justify-content-center pb-5">
             <table class="table table-striped table-hover table-bordered" id="table">
                 <thead>
