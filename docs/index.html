@@ -145,13 +145,13 @@
                         default:
                             html += '<td class="text-center"></td>';
                     }
-                    if (tableInfo[i].guidelines) {
-                        html += '<td class="text-center"><img src="https://img.shields.io/badge/-Suspicious%20-yellow"></td>';
-                    } else if (tableInfo[i].guidelines == false) {
-                        html += '<td class="text-center"><img src="https://img.shields.io/badge/-Clean%20-green"></td>';
-                    } else {
-                        html += '<td class="text-center"></td>';
-                    }
+                    // if (tableInfo[i].guidelines) {
+                    //     html += '<td class="text-center"><img src="https://img.shields.io/badge/-Suspicious%20-yellow"></td>';
+                    // } else if (tableInfo[i].guidelines == false) {
+                    //     html += '<td class="text-center"><img src="https://img.shields.io/badge/-Clean%20-green"></td>';
+                    // } else {
+                    //     html += '<td class="text-center"></td>';
+                    // }
                     if (tableInfo[i].source) {
                         html += '<td class="text-center"><a href="' + tableInfo[i].source + '">Link</a></td>'
                     } else {
@@ -242,7 +242,7 @@
                         <th scope="col" onclick="sort_table('train_split')" class="text-center">Train split</th>
                         <th scope="col" onclick="sort_table('dev_split')" class="text-center">Dev split</th>
                         <th scope="col" onclick="sort_table('test_split')" class="text-center">Test split</th>
-                        <th scope="col" onclick="sort_table('guidelines')" class="text-center">Guidelines</th>
+                        <!-- <th scope="col" onclick="sort_table('guidelines')" class="text-center">Guidelines</th> -->
                         <th score="col" onclick="sort_table('source')" class="text-center">Source</th>
                     </tr>
                 </thead>
