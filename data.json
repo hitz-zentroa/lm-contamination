@@ -125,7 +125,7 @@
         "dev_split": "contaminated",
         "test_split": "n/a",
         "train_percent": null,
-        "dev_percent": 99,
+        "dev_percent": 99.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -137,7 +137,7 @@
         "dev_split": "contaminated",
         "test_split": "n/a",
         "train_percent": null,
-        "dev_percent": 94,
+        "dev_percent": 94.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -149,7 +149,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 93,
+        "dev_percent": 93.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -161,7 +161,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 86,
+        "dev_percent": 86.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -173,7 +173,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 64,
+        "dev_percent": 64.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -185,7 +185,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 61,
+        "dev_percent": 61.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -198,7 +198,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 60,
+        "test_percent": 60.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
     },
@@ -209,7 +209,7 @@
         "dev_split": "contaminated",
         "test_split": "n/a",
         "train_percent": null,
-        "dev_percent": 60,
+        "dev_percent": 60.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -221,7 +221,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 59,
+        "dev_percent": 59.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -234,7 +234,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 45,
+        "test_percent": 45.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
     },
@@ -246,7 +246,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 43,
+        "test_percent": 43.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
     },
@@ -257,7 +257,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 40,
+        "dev_percent": 40.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -269,7 +269,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 29,
+        "dev_percent": 29.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -282,7 +282,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 25,
+        "test_percent": 25.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
     },
@@ -294,7 +294,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 25,
+        "test_percent": 25.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
     },
@@ -306,7 +306,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 25,
+        "test_percent": 25.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
     },
@@ -318,7 +318,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 21,
+        "test_percent": 21.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
     },
@@ -330,7 +330,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 21,
+        "test_percent": 21.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
     },
@@ -342,7 +342,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 21,
+        "test_percent": 21.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
     },
@@ -354,7 +354,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 20,
+        "test_percent": 20.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
     },
@@ -366,7 +366,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 18,
+        "test_percent": 18.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
     },
@@ -377,7 +377,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 17,
+        "dev_percent": 17.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -390,7 +390,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 16,
+        "test_percent": 16.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
     },
@@ -402,7 +402,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 14,
+        "test_percent": 14.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
     },
@@ -414,7 +414,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 14,
+        "test_percent": 14.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
     },
@@ -425,7 +425,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 8,
+        "dev_percent": 8.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -437,7 +437,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 8,
+        "dev_percent": 8.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -449,7 +449,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 7,
+        "dev_percent": 7.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -461,7 +461,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 7,
+        "dev_percent": 7.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -473,7 +473,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 7,
+        "dev_percent": 7.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -486,7 +486,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 6,
+        "test_percent": 6.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
     },
@@ -498,7 +498,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 4,
+        "test_percent": 4.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
     },
@@ -509,7 +509,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 3,
+        "dev_percent": 3.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -521,7 +521,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 3,
+        "dev_percent": 3.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -534,7 +534,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 3,
+        "test_percent": 3.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
     },
@@ -545,7 +545,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 2,
+        "dev_percent": 2.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -558,7 +558,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 1,
+        "test_percent": 1.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
     },
@@ -569,7 +569,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 1,
+        "dev_percent": 1.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -581,7 +581,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 1,
+        "dev_percent": 1.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
@@ -606,7 +606,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 1,
+        "test_percent": 1.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2303.08774"
     },
@@ -642,7 +642,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 25,
+        "test_percent": 25.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2303.08774"
     },
@@ -653,7 +653,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 21,
+        "dev_percent": 21.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2303.08774"
@@ -678,7 +678,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 11,
+        "test_percent": 11.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2307.09288"
     },
@@ -749,7 +749,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 68,
+        "dev_percent": 68.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2109.01652"
@@ -893,7 +893,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 15,
+        "dev_percent": 15.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2109.01652"
@@ -953,7 +953,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 9,
+        "dev_percent": 9.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2109.01652"
@@ -1049,7 +1049,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 40.67,
+        "dev_percent": 40.7,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
@@ -1061,7 +1061,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 31.77,
+        "dev_percent": 31.8,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
@@ -1073,7 +1073,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 32.45,
+        "dev_percent": 32.5,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
@@ -1085,7 +1085,7 @@
         "dev_split": "contaminated",
         "test_split": "n/a",
         "train_percent": null,
-        "dev_percent": 92.14,
+        "dev_percent": 92.1,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
@@ -1097,7 +1097,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 26.79,
+        "dev_percent": 26.8,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
@@ -1109,7 +1109,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 3,
+        "dev_percent": 3.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
@@ -1121,7 +1121,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 19.81,
+        "dev_percent": 19.8,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
@@ -1133,7 +1133,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 68.77,
+        "dev_percent": 68.8,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
@@ -1145,7 +1145,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 3.91,
+        "dev_percent": 3.9,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
@@ -1157,7 +1157,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 20,
+        "dev_percent": 20.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
@@ -1193,7 +1193,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 73.95,
+        "dev_percent": 74.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
@@ -1205,7 +1205,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 58.36,
+        "dev_percent": 58.4,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
@@ -1217,7 +1217,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 54.87,
+        "dev_percent": 54.9,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
@@ -1229,7 +1229,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 98.61,
+        "dev_percent": 98.6,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
@@ -1241,7 +1241,7 @@
         "dev_split": "contaminated",
         "test_split": "n/a",
         "train_percent": null,
-        "dev_percent": 94.62,
+        "dev_percent": 94.6,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
@@ -1253,7 +1253,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 100,
+        "dev_percent": 100.0,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
@@ -1265,7 +1265,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 18.75,
+        "dev_percent": 18.8,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
@@ -1277,7 +1277,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 8.21,
+        "dev_percent": 8.2,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
@@ -1289,7 +1289,7 @@
         "dev_split": "contaminated",
         "test_split": null,
         "train_percent": null,
-        "dev_percent": 67.31,
+        "dev_percent": 67.3,
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
@@ -1302,7 +1302,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 75,
+        "test_percent": 75.0,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
     },
@@ -1314,7 +1314,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 21.83,
+        "test_percent": 21.8,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
     },
@@ -1326,7 +1326,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 57.51,
+        "test_percent": 57.5,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
     },
@@ -1338,7 +1338,7 @@
         "test_split": "contaminated",
         "train_percent": null,
         "dev_percent": null,
-        "test_percent": 0.34,
+        "test_percent": 0.3,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2112.06905"
     }
