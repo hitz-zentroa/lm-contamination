@@ -585,5 +585,113 @@
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "model": "GPT-4",
+        "dataset": "MMLU",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 0.6,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2303.08774"
+    },
+    {
+        "model": "GPT-4",
+        "dataset": "GSM8K",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 1,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2303.08774"
+    },
+    {
+        "model": "GPT-4",
+        "dataset": "ARC (challenge)",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 3.4,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2303.08774"
+    },
+    {
+        "model": "GPT-4",
+        "dataset": "WinoGrande",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 0.9,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2303.08774"
+    },
+    {
+        "model": "GPT-4",
+        "dataset": "HummanEval",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 25,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2303.08774"
+    },
+    {
+        "model": "GPT-4",
+        "dataset": "DROP",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 21,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2303.08774"
+    },
+    {
+        "model": "LLaMA 2",
+        "dataset": "HellaSwag",
+        "train_split": null,
+        "dev_split": "contaminated",
+        "test_split": null,
+        "train_percent": null,
+        "dev_percent": 8.4,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2307.09288"
+    },
+    {
+        "model": "LLaMA 2",
+        "dataset": "MMLU-Humanities",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 11,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2307.09288"
+    },
+    {
+        "model": "LLaMA 2",
+        "dataset": "MMLU",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 10.9,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2307.09288"
     }
 ]
