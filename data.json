@@ -1005,5 +1005,17 @@
         "test_percent": 0.2,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2109.01652"
+    },
+    {
+        "model": "BLOOM",
+        "dataset": "XNLI",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2302.14035"
     }
 ]
