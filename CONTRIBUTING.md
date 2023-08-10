@@ -32,3 +32,6 @@ There could be different levels of contamination, and, as we are measuring them 
 **How to post the results**
 
 In addition to the results, we would like to see the number of executions needed to obtain the result and a screenshot that serves as "evidence".
+
+## Reporting contamination results from papers
+Recently, LLMs papers include a section talking about data contamination. If you find a LM paper that reports data contamination numbers you can either open an issue with the link to the paper or creating a PR which includes the data from that paper.
