@@ -1461,5 +1461,29 @@
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2204.02311"
+    },
+    {
+        "model": "PaLM 2",
+        "dataset": "WikiLingua",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 9.0,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2305.10403"
+    },
+    {
+        "model": "PaLM 2",
+        "dataset": "XL-Sum",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 46.9,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2305.10403"
     }
 ]
