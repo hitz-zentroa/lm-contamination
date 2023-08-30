@@ -1485,5 +1485,101 @@
         "test_percent": 46.9,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2305.10403"
+    },
+    {
+        "model": "PaLM 2",
+        "dataset": "XSum",
+        "train_split": null,
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": 42.0,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2305.10403"
+    },
+    {
+        "model": "GPT-4",
+        "dataset": "IMDB",
+        "train_split": "contaminated",
+        "dev_split": null,
+        "test_split": "clean",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2308.08493"
+    },
+    {
+        "model": "GPT-4",
+        "dataset": "AG News",
+        "train_split": "contaminated",
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2308.08493"
+    },
+    {
+        "model": "GPT-4",
+        "dataset": "Yelp",
+        "train_split": "clean",
+        "dev_split": null,
+        "test_split": "clean",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2308.08493"
+    },
+    {
+        "model": "GPT-4",
+        "dataset": "IMDB",
+        "train_split": "contaminated",
+        "dev_split": "clean",
+        "test_split": null,
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2308.08493"
+    },
+    {
+        "model": "GPT-4",
+        "dataset": "WNLI",
+        "train_split": "contaminated",
+        "dev_split": "contaminated",
+        "test_split": null,
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2308.08493"
+    },
+    {
+        "model": "GPT-4",
+        "dataset": "SAMSum",
+        "train_split": "clean",
+        "dev_split": null,
+        "test_split": "clean",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2308.08493"
+    },
+    {
+        "model": "GPT-4",
+        "dataset": "XSum",
+        "train_split": "clean",
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2308.08493"
     }
 ]
