@@ -1581,5 +1581,89 @@
         "test_percent": null,
         "guidelines": null,
         "source": "https://arxiv.org/abs/2308.08493"
+    },
+    {
+        "model": "GPT-3.5",
+        "dataset": "IMDB",
+        "train_split": "clean",
+        "dev_split": null,
+        "test_split": "clean",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2308.08493"
+    },
+    {
+        "model": "GPT-3.5",
+        "dataset": "AG News",
+        "train_split": "clean",
+        "dev_split": null,
+        "test_split": "clean",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2308.08493"
+    },
+    {
+        "model": "GPT-3.5",
+        "dataset": "Yelp",
+        "train_split": "clean",
+        "dev_split": null,
+        "test_split": "clean",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2308.08493"
+    },
+    {
+        "model": "GPT-3.5",
+        "dataset": "IMDB",
+        "train_split": "clean",
+        "dev_split": "clean",
+        "test_split": null,
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2308.08493"
+    },
+    {
+        "model": "GPT-3.5",
+        "dataset": "WNLI",
+        "train_split": "clean",
+        "dev_split": "clean",
+        "test_split": null,
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2308.08493"
+    },
+    {
+        "model": "GPT-3.5",
+        "dataset": "SAMSum",
+        "train_split": "clean",
+        "dev_split": null,
+        "test_split": "clean",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2308.08493"
+    },
+    {
+        "model": "GPT-3.5",
+        "dataset": "XSum",
+        "train_split": "clean",
+        "dev_split": null,
+        "test_split": "contaminated",
+        "train_percent": null,
+        "dev_percent": null,
+        "test_percent": null,
+        "guidelines": null,
+        "source": "https://arxiv.org/abs/2308.08493"
     }
 ]
