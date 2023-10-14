@@ -52,12 +52,34 @@
             updateTable()
         }
 
+        function get_sort_value(elem, property, sortOrder) {
+            if (property.includes("test") || property.includes("dev") || property.includes("train")) {
+                if (elem[property] == null) {
+                    return 100 * sortOrder;
+                } else if (elem[property] == "n/a") {
+                    return 50 * sortOrder;
+                } else if (elem[property] == "contaminated") {
+                    let _sort_value = 3.0;
+                    if (elem[property.replace("split", "percent")] != null) _sort_value += (elem[property.replace("split", "percent")] / 100);
+                    return _sort_value;
+                } else if (elem[property] == "suspicious") {
+                    return 2.0;
+                } else {
+                    return 1.0;
+                }
+            } else {
+                return elem[property]
+            }
+        }
+
         function dynamicSort(property, sortOrder) {
             return function (a,b) {
                 /* next line works with strings and numbers, 
                 * and you may want to customize it to your needs
                 */
-                var result = (a[property] < b[property]) ? -1 : (a[property] > b[property]) ? 1 : 1;
+                let a_value = get_sort_value(a, property, sortOrder);
+                let b_value = get_sort_value(b, property, sortOrder);
+                var result = (a_value < b_value) ? -1 : (a_value > b_value) ? 1 : 1;
                 return result * sortOrder;
             }
         }
