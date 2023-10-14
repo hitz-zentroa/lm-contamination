@@ -93,6 +93,46 @@
         }
 
         function updateTable() {
+            let head_ref = document.getElementById("tabHead");
+            let arrow = "&darr;"
+            if (_last_sort_order == 1) {
+                arrow = "&uarr;";
+            }
+            html = "";
+            if (_last_sort_property == "model") {
+                html += '<th scope="col" onclick="sort_table(\'model\')">Model ' + arrow + '</th>';
+            } else {
+                html += '<th scope="col" onclick="sort_table(\'model\')">Model</th>';
+            }
+            if (_last_sort_property == "dataset") {
+                html += '<th scope="col" onclick="sort_table(\'dataset\')">Dataset ' + arrow + '</th>';
+            } else {
+                html += '<th scope="col" onclick="sort_table(\'dataset\')">Dataset</th>';
+            }
+            if (_last_sort_property == "train_split") {
+                html += '<th scope="col" onclick="sort_table(\'train_split\')" class="text-center">Train split ' + arrow + '</th>';
+            } else {
+                html += '<th scope="col" onclick="sort_table(\'train_split\')" class="text-center">Train split</th>';
+            }
+            if (_last_sort_property == "dev_split") {
+                html += '<th scope="col" onclick="sort_table(\'dev_split\')" class="text-center">Dev split ' + arrow + '</th>';
+            } else {
+                html += '<th scope="col" onclick="sort_table(\'dev_split\')" class="text-center">Dev split</th>';
+            }
+            if (_last_sort_property == "test_split") {
+                html += '<th scope="col" onclick="sort_table(\'test_split\')" class="text-center">Test split ' + arrow + '</th>';
+            } else {
+                html += '<th scope="col" onclick="sort_table(\'test_split\')" class="text-center">Test split</th>';
+            }
+            if (_last_sort_property == "source") {
+                html += '<th scope="col" onclick="sort_table(\'source\')" class="text-center">Source ' + arrow + '</th>';
+            } else {
+                html += '<th scope="col" onclick="sort_table(\'source\')" class="text-center">Source</th>';
+            }
+            html += "</tr>\n";
+            head_ref.innerHTML = html;
+
+
             let table_ref = document.getElementById("tableBody");
             table_ref.innerHTML = "";
             let query = document.getElementById("query").value;
@@ -193,7 +233,7 @@
         }).then(function (data) {
             tableInfo = data;
             console.log(tableInfo)
-            updateTable();
+            // updateTable();
             sort_table("dataset")
         }).catch(function (err) {
             console.log('Fetch Error :-S', err);
@@ -259,7 +299,7 @@
         
         <div class="d-flex justify-content-center pb-5">
             <table class="table table-striped table-hover table-bordered" id="table">
-                <thead>
+                <thead id="tabHead">
                     <tr>
                         <th scope="col" onclick="sort_table('model')">Model</th>
                         <th scope="col" onclick="sort_table('dataset')">Dataset</th>
