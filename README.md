@@ -1,4 +1,4 @@
-<img src="docs/blog/imgs/hitz_logo.png" width="300">
+<img src="docs/blog/imgs/hitz_logo.png" align="right" width="300">
 
 # LM Contamination Index
 
