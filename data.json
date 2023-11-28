@@ -1536,7 +1536,7 @@
     },
     {
         "model": "GPT-4",
-        "dataset": "IMDB",
+        "dataset": "RTE",
         "train_split": "contaminated",
         "dev_split": "clean",
         "test_split": null,
@@ -1620,7 +1620,7 @@
     },
     {
         "model": "GPT-3.5",
-        "dataset": "IMDB",
+        "dataset": "RTE",
         "train_split": "clean",
         "dev_split": "clean",
         "test_split": null,
