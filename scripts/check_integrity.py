@@ -15,7 +15,17 @@ def fix_na(data):
         for split in ['train_split', 'dev_split', 'test_split']:
             if f"{inst['dataset']}_{split}" in na:
                 if inst[split] and inst[split] != "n/a":
-                    raise ValueError("Non n/a value found on a n/a split!" + str(inst))
+                    print("Non n/a value found on a n/a split!" + str(inst))
+                    if 'dev' in split:
+                        inst["test_split"] = inst["dev_split"]
+                        inst["test_percent"] = inst["dev_percent"]
+                        inst["dev_split"] = "n/a"
+                        inst["dev_percent"] = None
+                    else:
+                        inst["dev_split"] = inst["test_split"]
+                        inst["dev_percent"] = inst["test_percent"]
+                        inst["test_split"] = "n/a"
+                        inst["test_percent"] = None
                 inst[split] = "n/a"
     
     return data
