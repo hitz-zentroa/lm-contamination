@@ -35,9 +35,9 @@
     <script>
         var tableInfo = [];
         // For production
-        // var url = "https://raw.githubusercontent.com/hitz-zentroa/lm-contamination/main/data.json"
+        var url = "https://raw.githubusercontent.com/hitz-zentroa/lm-contamination/main/data.json"
         // For development
-        var url = "../data.json"
+        // var url = "../data.json"
         var _last_sort_property = null
         var _last_sort_order = 1
         console.log(url)
@@ -154,7 +154,7 @@
                     if (tableInfo[i].models) {
                         html += '<a class="text-decoration-none" href="' + tableInfo[i].models + '">' + tableInfo[i].corpus + "</a></td>";
                     } else {
-                        html += tableInfo[i].corpus;
+                        html += "<i>"+tableInfo[i].corpus+"</i>";
                     }
                     html += "</td><td>" + tableInfo[i].dataset + "</td>";
 
