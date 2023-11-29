@@ -1,6 +1,6 @@
 [
     {
-        "model": "ChatGPT",
+        "corpus": "ChatGPT",
         "dataset": "CoNLL03",
         "train_split": "contaminated",
         "dev_split": "contaminated",
@@ -12,7 +12,7 @@
         "source": ""
     },
     {
-        "model": "ChatGPT",
+        "corpus": "ChatGPT",
         "dataset": "ACE05",
         "train_split": "suspicious",
         "dev_split": "suspicious",
@@ -24,7 +24,7 @@
         "source": ""
     },
     {
-        "model": "ChatGPT",
+        "corpus": "ChatGPT",
         "dataset": "OntoNotes",
         "train_split": "clean",
         "dev_split": "clean",
@@ -36,7 +36,7 @@
         "source": ""
     },
     {
-        "model": "ChatGPT",
+        "corpus": "ChatGPT",
         "dataset": "SQuADv2",
         "train_split": "contaminated",
         "dev_split": "contaminated",
@@ -48,7 +48,7 @@
         "source": ""
     },
     {
-        "model": "ChatGPT",
+        "corpus": "ChatGPT",
         "dataset": "MNLI-m",
         "train_split": "contaminated",
         "dev_split": "contaminated",
@@ -60,7 +60,7 @@
         "source": ""
     },
     {
-        "model": "ChatGPT",
+        "corpus": "ChatGPT",
         "dataset": "QuAC",
         "train_split": "suspicious",
         "dev_split": "suspicious",
@@ -72,7 +72,7 @@
         "source": ""
     },
     {
-        "model": "ChatGPT",
+        "corpus": "ChatGPT",
         "dataset": "Natural Questions",
         "train_split": "suspicious",
         "dev_split": "suspicious",
@@ -84,7 +84,7 @@
         "source": ""
     },
     {
-        "model": "ChatGPT",
+        "corpus": "ChatGPT",
         "dataset": "BoolQ",
         "train_split": "suspicious",
         "dev_split": "suspicious",
@@ -96,7 +96,7 @@
         "source": ""
     },
     {
-        "model": "ChatGPT",
+        "corpus": "ChatGPT",
         "dataset": "GSM8K",
         "train_split": "clean",
         "dev_split": "n/a",
@@ -107,7 +107,7 @@
         "guidelines": null
     },
     {
-        "model": "ChatGPT",
+        "corpus": "ChatGPT",
         "dataset": "ToTTo",
         "train_split": "suspicious",
         "dev_split": "suspicious",
@@ -119,7 +119,7 @@
         "source": ""
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "QuAC",
         "train_split": null,
         "dev_split": "contaminated",
@@ -131,7 +131,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "SQuADv2",
         "train_split": null,
         "dev_split": "contaminated",
@@ -143,7 +143,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "DROP",
         "train_split": null,
         "dev_split": "contaminated",
@@ -155,7 +155,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "Symbol Insertion",
         "train_split": null,
         "dev_split": "contaminated",
@@ -167,7 +167,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "CoQa",
         "train_split": null,
         "dev_split": "contaminated",
@@ -179,7 +179,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "ReCoRD",
         "train_split": null,
         "dev_split": "contaminated",
@@ -191,7 +191,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "Winograd",
         "train_split": null,
         "dev_split": null,
@@ -203,7 +203,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "BoolQ",
         "train_split": null,
         "dev_split": "contaminated",
@@ -215,7 +215,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "MultiRC",
         "train_split": null,
         "dev_split": "contaminated",
@@ -227,7 +227,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "RACE-h",
         "train_split": null,
         "dev_split": null,
@@ -239,7 +239,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "LAMBADA",
         "train_split": null,
         "dev_split": null,
@@ -251,7 +251,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "WSC",
         "train_split": null,
         "dev_split": "contaminated",
@@ -263,7 +263,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "PIQA",
         "train_split": null,
         "dev_split": "contaminated",
@@ -275,7 +275,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "RACE-m",
         "train_split": null,
         "dev_split": null,
@@ -287,7 +287,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "De->En 16",
         "train_split": null,
         "dev_split": null,
@@ -299,7 +299,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "En->De 16",
         "train_split": null,
         "dev_split": null,
@@ -311,7 +311,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "En->Ro 16",
         "train_split": null,
         "dev_split": null,
@@ -323,7 +323,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "Ro->En 16",
         "train_split": null,
         "dev_split": null,
@@ -335,7 +335,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "WebQs",
         "train_split": null,
         "dev_split": null,
@@ -347,7 +347,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "ANLI R1",
         "train_split": null,
         "dev_split": null,
@@ -359,7 +359,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "ANLI R2",
         "train_split": null,
         "dev_split": null,
@@ -371,7 +371,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "TriviaQA",
         "train_split": null,
         "dev_split": "contaminated",
@@ -383,7 +383,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "ANLI R3",
         "train_split": null,
         "dev_split": null,
@@ -395,7 +395,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "En->Fr 14",
         "train_split": null,
         "dev_split": null,
@@ -407,7 +407,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "Fr->En 14",
         "train_split": null,
         "dev_split": null,
@@ -419,7 +419,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "WiC",
         "train_split": null,
         "dev_split": "contaminated",
@@ -431,7 +431,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "RTE",
         "train_split": null,
         "dev_split": "contaminated",
@@ -443,7 +443,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "CB",
         "train_split": null,
         "dev_split": "contaminated",
@@ -455,7 +455,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "Anagrams 2",
         "train_split": null,
         "dev_split": "contaminated",
@@ -467,7 +467,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "Reversed Words",
         "train_split": null,
         "dev_split": "contaminated",
@@ -479,7 +479,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "OpenBookQA",
         "train_split": null,
         "dev_split": null,
@@ -491,7 +491,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "ARC (easy)",
         "train_split": null,
         "dev_split": null,
@@ -503,7 +503,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "Anagrams 1",
         "train_split": null,
         "dev_split": "contaminated",
@@ -515,7 +515,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "COPA",
         "train_split": null,
         "dev_split": "contaminated",
@@ -527,7 +527,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "ARC (challenge)",
         "train_split": null,
         "dev_split": null,
@@ -539,7 +539,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "HellaSwag",
         "train_split": null,
         "dev_split": "contaminated",
@@ -551,7 +551,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "Natural Questions",
         "train_split": null,
         "dev_split": null,
@@ -563,7 +563,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "Cycled Letters",
         "train_split": null,
         "dev_split": "contaminated",
@@ -575,7 +575,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-3",
+        "corpus": "GPT-3",
         "dataset": "SAT Analogies",
         "train_split": null,
         "dev_split": "contaminated",
@@ -587,7 +587,7 @@
         "source": "https://arxiv.org/abs/2005.14165"
     },
     {
-        "model": "GPT-4",
+        "corpus": "GPT-4",
         "dataset": "MMLU",
         "train_split": null,
         "dev_split": null,
@@ -599,7 +599,7 @@
         "source": "https://arxiv.org/abs/2303.08774"
     },
     {
-        "model": "GPT-4",
+        "corpus": "GPT-4",
         "dataset": "GSM8K",
         "train_split": null,
         "dev_split": "n/a",
@@ -611,7 +611,7 @@
         "source": "https://arxiv.org/abs/2303.08774"
     },
     {
-        "model": "GPT-4",
+        "corpus": "GPT-4",
         "dataset": "ARC (challenge)",
         "train_split": null,
         "dev_split": null,
@@ -623,7 +623,7 @@
         "source": "https://arxiv.org/abs/2303.08774"
     },
     {
-        "model": "GPT-4",
+        "corpus": "GPT-4",
         "dataset": "WinoGrande",
         "train_split": null,
         "dev_split": null,
@@ -635,7 +635,7 @@
         "source": "https://arxiv.org/abs/2303.08774"
     },
     {
-        "model": "GPT-4",
+        "corpus": "GPT-4",
         "dataset": "HummanEval",
         "train_split": null,
         "dev_split": null,
@@ -647,7 +647,7 @@
         "source": "https://arxiv.org/abs/2303.08774"
     },
     {
-        "model": "GPT-4",
+        "corpus": "GPT-4",
         "dataset": "DROP",
         "train_split": null,
         "dev_split": "contaminated",
@@ -659,7 +659,7 @@
         "source": "https://arxiv.org/abs/2303.08774"
     },
     {
-        "model": "LLaMA 2",
+        "corpus": "LLaMA 2",
         "dataset": "HellaSwag",
         "train_split": null,
         "dev_split": "contaminated",
@@ -671,7 +671,7 @@
         "source": "https://arxiv.org/abs/2307.09288"
     },
     {
-        "model": "LLaMA 2",
+        "corpus": "LLaMA 2",
         "dataset": "MMLU-Humanities",
         "train_split": null,
         "dev_split": null,
@@ -683,7 +683,7 @@
         "source": "https://arxiv.org/abs/2307.09288"
     },
     {
-        "model": "LLaMA 2",
+        "corpus": "LLaMA 2",
         "dataset": "MMLU",
         "train_split": null,
         "dev_split": null,
@@ -695,7 +695,7 @@
         "source": "https://arxiv.org/abs/2307.09288"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "DROP",
         "train_split": null,
         "dev_split": "contaminated",
@@ -707,7 +707,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "SQuADv2",
         "train_split": null,
         "dev_split": "contaminated",
@@ -719,7 +719,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "ANLI R1",
         "train_split": null,
         "dev_split": "contaminated",
@@ -731,7 +731,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "ANLI R2",
         "train_split": null,
         "dev_split": "contaminated",
@@ -743,7 +743,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "ReCoRD",
         "train_split": null,
         "dev_split": "contaminated",
@@ -755,7 +755,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "MultiRC",
         "train_split": null,
         "dev_split": "contaminated",
@@ -767,7 +767,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "PIQA",
         "train_split": null,
         "dev_split": "contaminated",
@@ -779,7 +779,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "ANLI R3",
         "train_split": null,
         "dev_split": "contaminated",
@@ -791,7 +791,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "HellaSwag",
         "train_split": null,
         "dev_split": "contaminated",
@@ -803,7 +803,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "RTE",
         "train_split": null,
         "dev_split": "contaminated",
@@ -815,7 +815,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "En->Fr 14",
         "train_split": null,
         "dev_split": null,
@@ -827,7 +827,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "Fr->En 14",
         "train_split": null,
         "dev_split": null,
@@ -839,7 +839,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "BoolQ",
         "train_split": null,
         "dev_split": "contaminated",
@@ -851,7 +851,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "TriviaQA",
         "train_split": null,
         "dev_split": "contaminated",
@@ -863,7 +863,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "ARC (easy)",
         "train_split": null,
         "dev_split": "contaminated",
@@ -875,7 +875,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "ARC (challenge)",
         "train_split": null,
         "dev_split": "contaminated",
@@ -887,7 +887,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "OpenBookQA",
         "train_split": null,
         "dev_split": "contaminated",
@@ -899,7 +899,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "En->De 16",
         "train_split": null,
         "dev_split": null,
@@ -911,7 +911,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "De->En 16",
         "train_split": null,
         "dev_split": null,
@@ -923,7 +923,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "En->Ro 16",
         "train_split": null,
         "dev_split": null,
@@ -935,7 +935,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "Ro->En 16",
         "train_split": null,
         "dev_split": null,
@@ -947,7 +947,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "COPA",
         "train_split": null,
         "dev_split": "contaminated",
@@ -959,7 +959,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "CB",
         "train_split": null,
         "dev_split": "contaminated",
@@ -971,7 +971,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "Natural Questions",
         "train_split": null,
         "dev_split": "contaminated",
@@ -983,7 +983,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "StoryCloze",
         "train_split": null,
         "dev_split": "contaminated",
@@ -995,7 +995,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "FLAN",
+        "corpus": "FLAN",
         "dataset": "WinoGrande",
         "train_split": null,
         "dev_split": null,
@@ -1007,7 +1007,7 @@
         "source": "https://arxiv.org/abs/2109.01652"
     },
     {
-        "model": "BLOOM",
+        "corpus": "BLOOM",
         "dataset": "XNLI",
         "train_split": null,
         "dev_split": null,
@@ -1019,7 +1019,7 @@
         "source": "https://arxiv.org/abs/2302.14035"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "ANLI R1",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1031,7 +1031,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "ANLI R2",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1043,7 +1043,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "ANLI R3",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1055,7 +1055,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "ARC (challenge)",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1067,7 +1067,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "ARC (easy)",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1079,7 +1079,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "BoolQ",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1091,7 +1091,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "CB",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1103,7 +1103,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "COPA",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1115,7 +1115,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "HellaSwag",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1127,7 +1127,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "MultiRC",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1139,7 +1139,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "Natural Questions",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1151,7 +1151,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "OpenBookQA",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1163,7 +1163,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "PIQA",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1175,7 +1175,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "QuAC",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1187,7 +1187,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "RACE-h",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1199,7 +1199,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "RACE-m",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1211,7 +1211,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "RTE",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1223,7 +1223,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "ReCoRD",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1235,7 +1235,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "SQuADv2",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1247,7 +1247,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "StoryCloze",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1259,7 +1259,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "TriviaQA",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1271,7 +1271,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "WiC",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1283,7 +1283,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "Winograd",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1295,7 +1295,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "CoQa",
         "train_split": null,
         "dev_split": null,
@@ -1307,7 +1307,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "LAMBADA",
         "train_split": null,
         "dev_split": null,
@@ -1319,7 +1319,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "WSC",
         "train_split": null,
         "dev_split": null,
@@ -1331,7 +1331,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "GLaM",
+        "corpus": "GLaM",
         "dataset": "WinoGrande",
         "train_split": null,
         "dev_split": null,
@@ -1343,7 +1343,7 @@
         "source": "https://arxiv.org/abs/2112.06905"
     },
     {
-        "model": "PaLM",
+        "corpus": "PaLM",
         "dataset": "TriviaQA",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1355,7 +1355,7 @@
         "source": "https://arxiv.org/abs/2204.02311"
     },
     {
-        "model": "PaLM",
+        "corpus": "PaLM",
         "dataset": "WebQs",
         "train_split": null,
         "dev_split": null,
@@ -1367,7 +1367,7 @@
         "source": "https://arxiv.org/abs/2204.02311"
     },
     {
-        "model": "PaLM",
+        "corpus": "PaLM",
         "dataset": "LAMBADA",
         "train_split": null,
         "dev_split": null,
@@ -1379,7 +1379,7 @@
         "source": "https://arxiv.org/abs/2204.02311"
     },
     {
-        "model": "PaLM",
+        "corpus": "PaLM",
         "dataset": "Winograd",
         "train_split": null,
         "dev_split": null,
@@ -1391,7 +1391,7 @@
         "source": "https://arxiv.org/abs/2204.02311"
     },
     {
-        "model": "PaLM",
+        "corpus": "PaLM",
         "dataset": "SQuADv2",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1403,7 +1403,7 @@
         "source": "https://arxiv.org/abs/2204.02311"
     },
     {
-        "model": "PaLM",
+        "corpus": "PaLM",
         "dataset": "ARC (easy)",
         "train_split": null,
         "dev_split": null,
@@ -1415,7 +1415,7 @@
         "source": "https://arxiv.org/abs/2204.02311"
     },
     {
-        "model": "PaLM",
+        "corpus": "PaLM",
         "dataset": "ARC (challenge)",
         "train_split": null,
         "dev_split": null,
@@ -1427,7 +1427,7 @@
         "source": "https://arxiv.org/abs/2204.02311"
     },
     {
-        "model": "PaLM",
+        "corpus": "PaLM",
         "dataset": "WSC",
         "train_split": null,
         "dev_split": null,
@@ -1439,7 +1439,7 @@
         "source": "https://arxiv.org/abs/2204.02311"
     },
     {
-        "model": "PaLM",
+        "corpus": "PaLM",
         "dataset": "ReCoRD",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1451,7 +1451,7 @@
         "source": "https://arxiv.org/abs/2204.02311"
     },
     {
-        "model": "PaLM",
+        "corpus": "PaLM",
         "dataset": "CB",
         "train_split": null,
         "dev_split": "contaminated",
@@ -1463,7 +1463,7 @@
         "source": "https://arxiv.org/abs/2204.02311"
     },
     {
-        "model": "PaLM 2",
+        "corpus": "PaLM 2",
         "dataset": "WikiLingua",
         "train_split": null,
         "dev_split": null,
@@ -1475,7 +1475,7 @@
         "source": "https://arxiv.org/abs/2305.10403"
     },
     {
-        "model": "PaLM 2",
+        "corpus": "PaLM 2",
         "dataset": "XL-Sum",
         "train_split": null,
         "dev_split": null,
@@ -1487,7 +1487,7 @@
         "source": "https://arxiv.org/abs/2305.10403"
     },
     {
-        "model": "PaLM 2",
+        "corpus": "PaLM 2",
         "dataset": "XSum",
         "train_split": null,
         "dev_split": null,
@@ -1499,7 +1499,7 @@
         "source": "https://arxiv.org/abs/2305.10403"
     },
     {
-        "model": "GPT-4",
+        "corpus": "GPT-4",
         "dataset": "IMDB",
         "train_split": "contaminated",
         "dev_split": null,
@@ -1511,7 +1511,7 @@
         "source": "https://arxiv.org/abs/2308.08493"
     },
     {
-        "model": "GPT-4",
+        "corpus": "GPT-4",
         "dataset": "AG News",
         "train_split": "contaminated",
         "dev_split": null,
@@ -1523,7 +1523,7 @@
         "source": "https://arxiv.org/abs/2308.08493"
     },
     {
-        "model": "GPT-4",
+        "corpus": "GPT-4",
         "dataset": "Yelp",
         "train_split": "clean",
         "dev_split": null,
@@ -1535,7 +1535,7 @@
         "source": "https://arxiv.org/abs/2308.08493"
     },
     {
-        "model": "GPT-4",
+        "corpus": "GPT-4",
         "dataset": "RTE",
         "train_split": "contaminated",
         "dev_split": "clean",
@@ -1547,7 +1547,7 @@
         "source": "https://arxiv.org/abs/2308.08493"
     },
     {
-        "model": "GPT-4",
+        "corpus": "GPT-4",
         "dataset": "WNLI",
         "train_split": "contaminated",
         "dev_split": "contaminated",
@@ -1559,7 +1559,7 @@
         "source": "https://arxiv.org/abs/2308.08493"
     },
     {
-        "model": "GPT-4",
+        "corpus": "GPT-4",
         "dataset": "SAMSum",
         "train_split": "clean",
         "dev_split": null,
@@ -1571,7 +1571,7 @@
         "source": "https://arxiv.org/abs/2308.08493"
     },
     {
-        "model": "GPT-4",
+        "corpus": "GPT-4",
         "dataset": "XSum",
         "train_split": "clean",
         "dev_split": null,
@@ -1583,7 +1583,7 @@
         "source": "https://arxiv.org/abs/2308.08493"
     },
     {
-        "model": "GPT-3.5",
+        "corpus": "GPT-3.5",
         "dataset": "IMDB",
         "train_split": "clean",
         "dev_split": null,
@@ -1595,7 +1595,7 @@
         "source": "https://arxiv.org/abs/2308.08493"
     },
     {
-        "model": "GPT-3.5",
+        "corpus": "GPT-3.5",
         "dataset": "AG News",
         "train_split": "clean",
         "dev_split": null,
@@ -1607,7 +1607,7 @@
         "source": "https://arxiv.org/abs/2308.08493"
     },
     {
-        "model": "GPT-3.5",
+        "corpus": "GPT-3.5",
         "dataset": "Yelp",
         "train_split": "clean",
         "dev_split": null,
@@ -1619,7 +1619,7 @@
         "source": "https://arxiv.org/abs/2308.08493"
     },
     {
-        "model": "GPT-3.5",
+        "corpus": "GPT-3.5",
         "dataset": "RTE",
         "train_split": "clean",
         "dev_split": "clean",
@@ -1631,7 +1631,7 @@
         "source": "https://arxiv.org/abs/2308.08493"
     },
     {
-        "model": "GPT-3.5",
+        "corpus": "GPT-3.5",
         "dataset": "WNLI",
         "train_split": "clean",
         "dev_split": "clean",
@@ -1643,7 +1643,7 @@
         "source": "https://arxiv.org/abs/2308.08493"
     },
     {
-        "model": "GPT-3.5",
+        "corpus": "GPT-3.5",
         "dataset": "SAMSum",
         "train_split": "clean",
         "dev_split": null,
@@ -1655,7 +1655,7 @@
         "source": "https://arxiv.org/abs/2308.08493"
     },
     {
-        "model": "GPT-3.5",
+        "corpus": "GPT-3.5",
         "dataset": "XSum",
         "train_split": "clean",
         "dev_split": null,
@@ -1667,7 +1667,8 @@
         "source": "https://arxiv.org/abs/2308.08493"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "AdversarialQA",
         "train_split": null,
         "dev_split": null,
@@ -1679,7 +1680,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "AdversarialQA",
         "train_split": null,
         "dev_split": null,
@@ -1691,7 +1693,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "AdversarialQA",
         "train_split": null,
         "dev_split": null,
@@ -1703,7 +1706,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "AdversarialQA",
         "train_split": null,
         "dev_split": null,
@@ -1715,7 +1719,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "AESLC",
         "train_split": null,
         "dev_split": null,
@@ -1727,7 +1732,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "AESLC",
         "train_split": null,
         "dev_split": null,
@@ -1739,7 +1745,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "AESLC",
         "train_split": null,
         "dev_split": null,
@@ -1751,7 +1758,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "AESLC",
         "train_split": null,
         "dev_split": null,
@@ -1763,7 +1771,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "Amazon-Reviews",
         "train_split": null,
         "dev_split": null,
@@ -1775,7 +1784,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "Amazon-Reviews",
         "train_split": null,
         "dev_split": null,
@@ -1787,7 +1797,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "Amazon-Reviews",
         "train_split": null,
         "dev_split": null,
@@ -1799,7 +1810,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "Amazon-Reviews",
         "train_split": null,
         "dev_split": null,
@@ -1811,7 +1823,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "BillSum",
         "train_split": null,
         "dev_split": null,
@@ -1823,7 +1836,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "BillSum",
         "train_split": null,
         "dev_split": null,
@@ -1835,7 +1849,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "BillSum",
         "train_split": null,
         "dev_split": null,
@@ -1847,7 +1862,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "BillSum",
         "train_split": null,
         "dev_split": null,
@@ -1859,7 +1875,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "CosmosQa",
         "train_split": null,
         "dev_split": null,
@@ -1871,7 +1888,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "CosmosQa",
         "train_split": null,
         "dev_split": null,
@@ -1883,7 +1901,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "CosmosQa",
         "train_split": null,
         "dev_split": null,
@@ -1895,7 +1914,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "CosmosQa",
         "train_split": null,
         "dev_split": null,
@@ -1907,7 +1927,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "Crows-Pairs",
         "train_split": null,
         "dev_split": null,
@@ -1919,7 +1940,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "Crows-Pairs",
         "train_split": null,
         "dev_split": null,
@@ -1931,7 +1953,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "Crows-Pairs",
         "train_split": null,
         "dev_split": null,
@@ -1943,7 +1966,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "Crows-Pairs",
         "train_split": null,
         "dev_split": null,
@@ -1955,7 +1979,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "duoRC-ParaphraseRC",
         "train_split": null,
         "dev_split": null,
@@ -1967,7 +1992,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "duoRC-ParaphraseRC",
         "train_split": null,
         "dev_split": null,
@@ -1979,7 +2005,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "duoRC-ParaphraseRC",
         "train_split": null,
         "dev_split": null,
@@ -1991,7 +2018,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "duoRC-ParaphraseRC",
         "train_split": null,
         "dev_split": null,
@@ -2003,7 +2031,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "duoRC-SelfRC",
         "train_split": null,
         "dev_split": null,
@@ -2015,7 +2044,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "duoRC-SelfRC",
         "train_split": null,
         "dev_split": null,
@@ -2027,7 +2057,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "duoRC-SelfRC",
         "train_split": null,
         "dev_split": null,
@@ -2039,7 +2070,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "duoRC-SelfRC",
         "train_split": null,
         "dev_split": null,
@@ -2051,7 +2083,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "eSNLI",
         "train_split": null,
         "dev_split": null,
@@ -2063,7 +2096,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "eSNLI",
         "train_split": null,
         "dev_split": null,
@@ -2075,7 +2109,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "eSNLI",
         "train_split": null,
         "dev_split": null,
@@ -2087,7 +2122,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "eSNLI",
         "train_split": null,
         "dev_split": null,
@@ -2099,7 +2135,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "Gigaword",
         "train_split": null,
         "dev_split": null,
@@ -2111,7 +2148,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "Gigaword",
         "train_split": null,
         "dev_split": null,
@@ -2123,7 +2161,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "Gigaword",
         "train_split": null,
         "dev_split": null,
@@ -2135,7 +2174,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "Gigaword",
         "train_split": null,
         "dev_split": null,
@@ -2147,7 +2187,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "AX",
         "train_split": null,
         "dev_split": null,
@@ -2159,7 +2200,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "AX",
         "train_split": null,
         "dev_split": null,
@@ -2171,7 +2213,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "AX",
         "train_split": null,
         "dev_split": null,
@@ -2183,7 +2226,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "AX",
         "train_split": null,
         "dev_split": null,
@@ -2195,7 +2239,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "MNLI-m",
         "train_split": null,
         "dev_split": "contaminated",
@@ -2207,7 +2252,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "MNLI-m",
         "train_split": null,
         "dev_split": "contaminated",
@@ -2219,7 +2265,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "MNLI-m",
         "train_split": null,
         "dev_split": "contaminated",
@@ -2231,7 +2278,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "MNLI-m",
         "train_split": null,
         "dev_split": "contaminated",
@@ -2243,7 +2291,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "MNLI-mm",
         "train_split": null,
         "dev_split": "contaminated",
@@ -2255,7 +2304,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "MNLI-mm",
         "train_split": null,
         "dev_split": "contaminated",
@@ -2267,7 +2317,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "MNLI-mm",
         "train_split": null,
         "dev_split": "contaminated",
@@ -2279,7 +2330,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "MNLI-mm",
         "train_split": null,
         "dev_split": "contaminated",
@@ -2291,7 +2343,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "MRPC",
         "train_split": null,
         "dev_split": null,
@@ -2303,7 +2356,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "MRPC",
         "train_split": null,
         "dev_split": null,
@@ -2315,7 +2369,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "MRPC",
         "train_split": null,
         "dev_split": null,
@@ -2327,7 +2382,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "MRPC",
         "train_split": null,
         "dev_split": null,
@@ -2339,7 +2395,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "QNLI",
         "train_split": null,
         "dev_split": null,
@@ -2351,7 +2408,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "QNLI",
         "train_split": null,
         "dev_split": null,
@@ -2363,7 +2421,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "QNLI",
         "train_split": null,
         "dev_split": null,
@@ -2375,7 +2434,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "QNLI",
         "train_split": null,
         "dev_split": null,
@@ -2387,7 +2447,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "QQP",
         "train_split": null,
         "dev_split": null,
@@ -2399,7 +2460,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "QQP",
         "train_split": null,
         "dev_split": null,
@@ -2411,7 +2473,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "QQP",
         "train_split": null,
         "dev_split": null,
@@ -2423,7 +2486,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "QQP",
         "train_split": null,
         "dev_split": null,
@@ -2435,7 +2499,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "RTE",
         "train_split": null,
         "dev_split": null,
@@ -2447,7 +2512,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "RTE",
         "train_split": null,
         "dev_split": null,
@@ -2459,7 +2525,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "RTE",
         "train_split": null,
         "dev_split": null,
@@ -2471,7 +2538,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "RTE",
         "train_split": null,
         "dev_split": null,
@@ -2483,7 +2551,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "STSB",
         "train_split": null,
         "dev_split": null,
@@ -2495,7 +2564,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "STSB",
         "train_split": null,
         "dev_split": null,
@@ -2507,7 +2577,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "STSB",
         "train_split": null,
         "dev_split": null,
@@ -2519,7 +2590,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "STSB",
         "train_split": null,
         "dev_split": null,
@@ -2531,7 +2603,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "WNLI",
         "train_split": null,
         "dev_split": null,
@@ -2543,7 +2616,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "WNLI",
         "train_split": null,
         "dev_split": null,
@@ -2555,7 +2629,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "WNLI",
         "train_split": null,
         "dev_split": null,
@@ -2567,7 +2642,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "WNLI",
         "train_split": null,
         "dev_split": null,
@@ -2579,7 +2655,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "HeadQA-en",
         "train_split": null,
         "dev_split": null,
@@ -2591,7 +2668,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "HeadQA-en",
         "train_split": null,
         "dev_split": null,
@@ -2603,7 +2681,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "HeadQA-en",
         "train_split": null,
         "dev_split": null,
@@ -2615,7 +2694,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "HeadQA-en",
         "train_split": null,
         "dev_split": null,
@@ -2627,7 +2707,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "health-fact",
         "train_split": null,
         "dev_split": null,
@@ -2639,7 +2720,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "health-fact",
         "train_split": null,
         "dev_split": null,
@@ -2651,7 +2733,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "health-fact",
         "train_split": null,
         "dev_split": null,
@@ -2663,7 +2746,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "health-fact",
         "train_split": null,
         "dev_split": null,
@@ -2675,7 +2759,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "HLGD",
         "train_split": null,
         "dev_split": null,
@@ -2687,7 +2772,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "HLGD",
         "train_split": null,
         "dev_split": null,
@@ -2699,7 +2785,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "HLGD",
         "train_split": null,
         "dev_split": null,
@@ -2711,7 +2798,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "HLGD",
         "train_split": null,
         "dev_split": null,
@@ -2723,7 +2811,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "LIAR",
         "train_split": null,
         "dev_split": null,
@@ -2735,7 +2824,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "LIAR",
         "train_split": null,
         "dev_split": null,
@@ -2747,7 +2837,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "LIAR",
         "train_split": null,
         "dev_split": null,
@@ -2759,7 +2850,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "LIAR",
         "train_split": null,
         "dev_split": null,
@@ -2771,7 +2863,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "math-dataset",
         "train_split": null,
         "dev_split": null,
@@ -2783,7 +2876,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "math-dataset",
         "train_split": null,
         "dev_split": null,
@@ -2795,7 +2889,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "math-dataset",
         "train_split": null,
         "dev_split": null,
@@ -2807,7 +2902,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "math-dataset",
         "train_split": null,
         "dev_split": null,
@@ -2819,7 +2915,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "MathQA",
         "train_split": null,
         "dev_split": null,
@@ -2831,7 +2928,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "MathQA",
         "train_split": null,
         "dev_split": null,
@@ -2843,7 +2941,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "MathQA",
         "train_split": null,
         "dev_split": null,
@@ -2855,7 +2954,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "MathQA",
         "train_split": null,
         "dev_split": null,
@@ -2867,7 +2967,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "MC-TACO",
         "train_split": null,
         "dev_split": null,
@@ -2879,7 +2980,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "MC-TACO",
         "train_split": null,
         "dev_split": null,
@@ -2891,7 +2993,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "MC-TACO",
         "train_split": null,
         "dev_split": null,
@@ -2903,7 +3006,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "MC-TACO",
         "train_split": null,
         "dev_split": null,
@@ -2915,7 +3019,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "MOCHA",
         "train_split": null,
         "dev_split": null,
@@ -2927,7 +3032,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "MOCHA",
         "train_split": null,
         "dev_split": null,
@@ -2939,7 +3045,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "MOCHA",
         "train_split": null,
         "dev_split": null,
@@ -2951,7 +3058,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "MOCHA",
         "train_split": null,
         "dev_split": null,
@@ -2963,7 +3071,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "HumanEval",
         "train_split": null,
         "dev_split": null,
@@ -2975,7 +3084,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "HumanEval",
         "train_split": null,
         "dev_split": null,
@@ -2987,7 +3097,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "HumanEval",
         "train_split": null,
         "dev_split": null,
@@ -2999,7 +3110,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "HumanEval",
         "train_split": null,
         "dev_split": null,
@@ -3011,7 +3123,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "PAWS",
         "train_split": null,
         "dev_split": null,
@@ -3023,7 +3136,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "PAWS",
         "train_split": null,
         "dev_split": null,
@@ -3035,7 +3149,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "PAWS",
         "train_split": null,
         "dev_split": null,
@@ -3047,7 +3162,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "PAWS",
         "train_split": null,
         "dev_split": null,
@@ -3059,7 +3175,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "PIQA",
         "train_split": null,
         "dev_split": null,
@@ -3071,7 +3188,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "PIQA",
         "train_split": null,
         "dev_split": null,
@@ -3083,7 +3201,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "PIQA",
         "train_split": null,
         "dev_split": null,
@@ -3095,7 +3214,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "PIQA",
         "train_split": null,
         "dev_split": null,
@@ -3107,7 +3227,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "RACE-h",
         "train_split": null,
         "dev_split": null,
@@ -3119,7 +3240,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "RACE-h",
         "train_split": null,
         "dev_split": null,
@@ -3131,7 +3253,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "RACE-h",
         "train_split": null,
         "dev_split": null,
@@ -3143,7 +3266,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "RACE-h",
         "train_split": null,
         "dev_split": null,
@@ -3155,7 +3279,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "RACE-m",
         "train_split": null,
         "dev_split": null,
@@ -3167,7 +3292,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "RACE-m",
         "train_split": null,
         "dev_split": null,
@@ -3179,7 +3305,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "RACE-m",
         "train_split": null,
         "dev_split": null,
@@ -3191,7 +3318,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "RACE-m",
         "train_split": null,
         "dev_split": null,
@@ -3203,7 +3331,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "ROPES",
         "train_split": null,
         "dev_split": null,
@@ -3215,7 +3344,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "ROPES",
         "train_split": null,
         "dev_split": null,
@@ -3227,7 +3357,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "ROPES",
         "train_split": null,
         "dev_split": null,
@@ -3239,7 +3370,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "ROPES",
         "train_split": null,
         "dev_split": null,
@@ -3251,7 +3383,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "SAMSum",
         "train_split": null,
         "dev_split": null,
@@ -3263,7 +3396,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "SAMSum",
         "train_split": null,
         "dev_split": null,
@@ -3275,7 +3409,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "SAMSum",
         "train_split": null,
         "dev_split": null,
@@ -3287,7 +3422,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "SAMSum",
         "train_split": null,
         "dev_split": null,
@@ -3299,7 +3435,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "SciCite",
         "train_split": null,
         "dev_split": null,
@@ -3311,7 +3448,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "SciCite",
         "train_split": null,
         "dev_split": null,
@@ -3323,7 +3461,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "SciCite",
         "train_split": null,
         "dev_split": null,
@@ -3335,7 +3474,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "SciCite",
         "train_split": null,
         "dev_split": null,
@@ -3347,7 +3487,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "SciTail",
         "train_split": null,
         "dev_split": null,
@@ -3359,7 +3500,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "SciTail",
         "train_split": null,
         "dev_split": null,
@@ -3371,7 +3513,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "SciTail",
         "train_split": null,
         "dev_split": null,
@@ -3383,7 +3526,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "SciTail",
         "train_split": null,
         "dev_split": null,
@@ -3395,7 +3539,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "SemEval-2014",
         "train_split": null,
         "dev_split": null,
@@ -3407,7 +3552,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "SemEval-2014",
         "train_split": null,
         "dev_split": null,
@@ -3419,7 +3565,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "SemEval-2014",
         "train_split": null,
         "dev_split": null,
@@ -3431,7 +3578,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "SemEval-2014",
         "train_split": null,
         "dev_split": null,
@@ -3443,7 +3591,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "SICK",
         "train_split": null,
         "dev_split": null,
@@ -3455,7 +3604,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "SICK",
         "train_split": null,
         "dev_split": null,
@@ -3467,7 +3617,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "SICK",
         "train_split": null,
         "dev_split": null,
@@ -3479,7 +3630,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "SICK",
         "train_split": null,
         "dev_split": null,
@@ -3491,7 +3643,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "SNLI",
         "train_split": null,
         "dev_split": null,
@@ -3503,7 +3656,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "SNLI",
         "train_split": null,
         "dev_split": null,
@@ -3515,7 +3669,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "SNLI",
         "train_split": null,
         "dev_split": null,
@@ -3527,7 +3682,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "SNLI",
         "train_split": null,
         "dev_split": null,
@@ -3539,7 +3695,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "SQuAD-shifts-amazon",
         "train_split": null,
         "dev_split": null,
@@ -3551,7 +3708,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "SQuAD-shifts-amazon",
         "train_split": null,
         "dev_split": null,
@@ -3563,7 +3721,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "SQuAD-shifts-amazon",
         "train_split": null,
         "dev_split": null,
@@ -3575,7 +3734,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "SQuAD-shifts-amazon",
         "train_split": null,
         "dev_split": null,
@@ -3587,7 +3747,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "SQuAD-shifts-new-wiki",
         "train_split": null,
         "dev_split": null,
@@ -3599,7 +3760,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "SQuAD-shifts-new-wiki",
         "train_split": null,
         "dev_split": null,
@@ -3611,7 +3773,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "SQuAD-shifts-new-wiki",
         "train_split": null,
         "dev_split": null,
@@ -3623,7 +3786,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "SQuAD-shifts-new-wiki",
         "train_split": null,
         "dev_split": null,
@@ -3635,7 +3799,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "SQuAD-shifts-nyt",
         "train_split": null,
         "dev_split": null,
@@ -3647,7 +3812,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "SQuAD-shifts-nyt",
         "train_split": null,
         "dev_split": null,
@@ -3659,7 +3825,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "SQuAD-shifts-nyt",
         "train_split": null,
         "dev_split": null,
@@ -3671,7 +3838,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "SQuAD-shifts-nyt",
         "train_split": null,
         "dev_split": null,
@@ -3683,7 +3851,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "SubjQA",
         "train_split": null,
         "dev_split": null,
@@ -3695,7 +3864,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "SubjQA",
         "train_split": null,
         "dev_split": null,
@@ -3707,7 +3877,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "SubjQA",
         "train_split": null,
         "dev_split": null,
@@ -3719,7 +3890,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "SubjQA",
         "train_split": null,
         "dev_split": null,
@@ -3731,7 +3903,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "Ax-b",
         "train_split": null,
         "dev_split": null,
@@ -3743,7 +3916,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "Ax-b",
         "train_split": null,
         "dev_split": null,
@@ -3755,7 +3929,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "Ax-b",
         "train_split": null,
         "dev_split": null,
@@ -3767,7 +3942,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "Ax-b",
         "train_split": null,
         "dev_split": null,
@@ -3779,7 +3955,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "Ax-g",
         "train_split": null,
         "dev_split": null,
@@ -3791,7 +3968,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "Ax-g",
         "train_split": null,
         "dev_split": null,
@@ -3803,7 +3981,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "Ax-g",
         "train_split": null,
         "dev_split": null,
@@ -3815,7 +3994,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "Ax-g",
         "train_split": null,
         "dev_split": null,
@@ -3827,7 +4007,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "BoolQ",
         "train_split": null,
         "dev_split": "clean",
@@ -3839,7 +4020,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "BoolQ",
         "train_split": null,
         "dev_split": "contaminated",
@@ -3851,7 +4033,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "BoolQ",
         "train_split": null,
         "dev_split": "clean",
@@ -3863,7 +4046,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "BoolQ",
         "train_split": null,
         "dev_split": "suspicious",
@@ -3875,7 +4059,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "CB",
         "train_split": null,
         "dev_split": null,
@@ -3887,7 +4072,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "CB",
         "train_split": null,
         "dev_split": null,
@@ -3899,7 +4085,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "CB",
         "train_split": null,
         "dev_split": null,
@@ -3911,7 +4098,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "CB",
         "train_split": null,
         "dev_split": null,
@@ -3923,7 +4111,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "COPA",
         "train_split": null,
         "dev_split": null,
@@ -3935,7 +4124,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "COPA",
         "train_split": null,
         "dev_split": null,
@@ -3947,7 +4137,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "COPA",
         "train_split": null,
         "dev_split": null,
@@ -3959,7 +4150,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "COPA",
         "train_split": null,
         "dev_split": null,
@@ -3971,7 +4163,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "MultiRC",
         "train_split": null,
         "dev_split": null,
@@ -3983,7 +4176,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "MultiRC",
         "train_split": null,
         "dev_split": null,
@@ -3995,7 +4189,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "MultiRC",
         "train_split": null,
         "dev_split": null,
@@ -4007,7 +4202,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "MultiRC",
         "train_split": null,
         "dev_split": null,
@@ -4019,7 +4215,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "ReCoRD",
         "train_split": null,
         "dev_split": null,
@@ -4031,7 +4228,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "ReCoRD",
         "train_split": null,
         "dev_split": null,
@@ -4043,7 +4241,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "ReCoRD",
         "train_split": null,
         "dev_split": null,
@@ -4055,7 +4254,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "ReCoRD",
         "train_split": null,
         "dev_split": null,
@@ -4067,7 +4267,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "WiC",
         "train_split": null,
         "dev_split": null,
@@ -4079,7 +4280,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "WiC",
         "train_split": null,
         "dev_split": null,
@@ -4091,7 +4293,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "WiC",
         "train_split": null,
         "dev_split": null,
@@ -4103,7 +4306,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "WiC",
         "train_split": null,
         "dev_split": null,
@@ -4115,7 +4319,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "SWAG",
         "train_split": null,
         "dev_split": null,
@@ -4127,7 +4332,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "SWAG",
         "train_split": null,
         "dev_split": null,
@@ -4139,7 +4345,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "SWAG",
         "train_split": null,
         "dev_split": null,
@@ -4151,7 +4358,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "SWAG",
         "train_split": null,
         "dev_split": null,
@@ -4163,7 +4371,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "TabFact",
         "train_split": null,
         "dev_split": null,
@@ -4175,7 +4384,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "TabFact",
         "train_split": null,
         "dev_split": null,
@@ -4187,7 +4397,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "TabFact",
         "train_split": null,
         "dev_split": null,
@@ -4199,7 +4410,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "TabFact",
         "train_split": null,
         "dev_split": null,
@@ -4211,7 +4423,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "WikiQA",
         "train_split": null,
         "dev_split": null,
@@ -4223,7 +4436,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "WikiQA",
         "train_split": null,
         "dev_split": null,
@@ -4235,7 +4449,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "WikiQA",
         "train_split": null,
         "dev_split": null,
@@ -4247,7 +4462,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "WikiQA",
         "train_split": null,
         "dev_split": null,
@@ -4259,7 +4475,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "WSC",
         "train_split": null,
         "dev_split": null,
@@ -4271,7 +4488,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "WSC",
         "train_split": null,
         "dev_split": null,
@@ -4283,7 +4501,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "WSC",
         "train_split": null,
         "dev_split": null,
@@ -4295,7 +4514,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "WSC",
         "train_split": null,
         "dev_split": null,
@@ -4307,7 +4527,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "WinoGrande",
         "train_split": null,
         "dev_split": null,
@@ -4319,7 +4540,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "WinoGrande",
         "train_split": null,
         "dev_split": null,
@@ -4331,7 +4553,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "WinoGrande",
         "train_split": null,
         "dev_split": null,
@@ -4343,7 +4566,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "WinoGrande",
         "train_split": null,
         "dev_split": null,
@@ -4355,7 +4579,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "XNLI",
         "train_split": null,
         "dev_split": null,
@@ -4367,7 +4592,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "XNLI",
         "train_split": null,
         "dev_split": null,
@@ -4379,7 +4605,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "XNLI",
         "train_split": null,
         "dev_split": null,
@@ -4391,7 +4618,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "XNLI",
         "train_split": null,
         "dev_split": null,
@@ -4403,7 +4631,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "XSum",
         "train_split": null,
         "dev_split": null,
@@ -4415,7 +4644,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "XSum",
         "train_split": null,
         "dev_split": null,
@@ -4427,7 +4657,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "XSum",
         "train_split": null,
         "dev_split": null,
@@ -4439,7 +4670,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "XSum",
         "train_split": null,
         "dev_split": null,
@@ -4451,7 +4683,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "C4",
+        "corpus": "C4",
+        "models": "https://huggingface.co/models?dataset=dataset:c4",
         "dataset": "ZEST",
         "train_split": null,
         "dev_split": null,
@@ -4463,7 +4696,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "OSCAR",
+        "corpus": "OSCAR",
+        "models": "https://huggingface.co/models?dataset=dataset:oscar",
         "dataset": "ZEST",
         "train_split": null,
         "dev_split": null,
@@ -4475,7 +4709,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "ThePile",
+        "corpus": "The Pile",
+        "models": "https://huggingface.co/models?dataset=dataset:EleutherAI/pile",
         "dataset": "ZEST",
         "train_split": null,
         "dev_split": null,
@@ -4487,7 +4722,8 @@
         "source": "https://arxiv.org/abs/2310.20707"
     },
     {
-        "model": "RedPajama",
+        "corpus": "RedPajama",
+        "models": "https://huggingface.co/models?dataset=dataset:togethercomputer/RedPajama-Data-1T",
         "dataset": "ZEST",
         "train_split": null,
         "dev_split": null,

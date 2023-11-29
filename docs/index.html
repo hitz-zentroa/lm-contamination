@@ -35,9 +35,9 @@
     <script>
         var tableInfo = [];
         // For production
-        var url = "https://raw.githubusercontent.com/hitz-zentroa/lm-contamination/main/data.json"
+        // var url = "https://raw.githubusercontent.com/hitz-zentroa/lm-contamination/main/data.json"
         // For development
-        // var url = "../data.json"
+        var url = "../data.json"
         var _last_sort_property = null
         var _last_sort_order = 1
         console.log(url)
@@ -100,10 +100,10 @@
                 arrow = "&uarr;";
             }
             html = "";
-            if (_last_sort_property == "model") {
-                html += '<th scope="col" onclick="sort_table(\'model\')">Model ' + arrow + '</th>';
+            if (_last_sort_property == "corpus") {
+                html += '<th scope="col" onclick="sort_table(\'corpus\')">Corpus ' + arrow + '</th>';
             } else {
-                html += '<th scope="col" onclick="sort_table(\'model\')">Model</th>';
+                html += '<th scope="col" onclick="sort_table(\'corpus\')">Corpus</th>';
             }
             if (_last_sort_property == "dataset") {
                 html += '<th scope="col" onclick="sort_table(\'dataset\')">Dataset ' + arrow + '</th>';
@@ -150,7 +150,13 @@
                 // if (query == "" || tableInfo[i].model.toLowerCase().includes(query.toLowerCase()) || tableInfo[i].dataset.toLowerCase().includes(query.toLowerCase())) {
                 if (match_fn(tableInfo[i], query)) {
                     count++;
-                    html = "<tr><td>" + tableInfo[i].model + "</td><td>" + tableInfo[i].dataset + "</td>";
+                    html = "<tr><td>";
+                    if (tableInfo[i].models) {
+                        html += '<a class="text-decoration-none" href="' + tableInfo[i].models + '">' + tableInfo[i].corpus + "</a></td>";
+                    } else {
+                        html += tableInfo[i].corpus;
+                    }
+                    html += "</td><td>" + tableInfo[i].dataset + "</td>";
 
                     switch (tableInfo[i].train_split) {
                         case "contaminated":
@@ -251,8 +257,9 @@
             <h1 class="display-3 fw-light">LM Contamination Index</h1>
         </div>
         <div class="pb-5 fs-6">
-            <p>The <a href="https://arxiv.org/abs/2310.18018" class="text-decoration-none">NLP evaluation is in
-                    trouble!</a> Many evaluation benchmarks have been found in pre-training datasets. The LM
+            <p><a href="https://arxiv.org/abs/2310.18018" class="text-decoration-none">NLP evaluation is in
+                    trouble!</a> Many evaluation benchmarks have been found in pre-training datasets compromising
+                scientific results. The LM
                 Contamination Index is a manually created database of contamination evidences for LMs. Please,
                 refer to the <a href="https://hitz-zentroa.github.io/lm-contamination/blog/"
                     class="text-decoration-none">blog post</a> or the <a
@@ -262,16 +269,15 @@
 
             <ul>
                 <li>
-                    The model is <span class="badge bg-danger text-light">Contaminated</span> if there has been found
-                    evidence of contamination:
+                    The dataset is <span class="badge bg-danger text-light">Contaminated</span> if evidence of contamination has been found:
                     <ul>
-                        <li>The dataset was found in the pre-training dataset. In this case, the contamination
+                        <li>The dataset was found in the pre-training data. In this case, the contamination
                             percentage is also reported.</li>
-                        <li>The model is able to generate dataset examples.</li>
+                        <li>A model trained on the corpus is able to generate dataset examples.</li>
                     </ul>
                 </li>
                 <li>
-                    The model is <span class="badge bg-warning text-light">Suspicious</span> if there are indicious of
+                    The dataset is <span class="badge bg-warning text-light">Suspicious</span> if there are signs of
                     contamination, the model is aware of some detail or structure of the dataset, but no clear evidence
                     was found.
                     <!--it is able to
@@ -279,8 +285,8 @@
                     relevant information that characterizes the dataset.-->
                 </li>
                 <li>
-                    We consider the model to be <span class="badge bg-success text-light">Clean</span> if there is no
-                    evidence nor indicious of contamination.
+                    We consider the dataset to be <span class="badge bg-success text-light">Clean</span> if  no
+                    evidence nor signs of contamination have been found.
                     <!--it
                     is not able to generate anything that is reflected on the original dataset.-->
                 </li>
@@ -312,11 +318,11 @@
             <p id="elements-found"></p>
         </div>
 
-        <div class="d-flex justify-content-center pb-5">
+        <div class="d-flex justify-content-center pb-5 table-responsive">
             <table class="table table-striped table-hover table-bordered table-sm" id="table">
                 <thead id="tabHead">
                     <tr>
-                        <th scope="col" onclick="sort_table('model')">Model</th>
+                        <th scope="col" onclick="sort_table('corpus')">Corpus</th>
                         <th scope="col" onclick="sort_table('dataset')">Dataset</th>
                         <th scope="col" onclick="sort_table('train_split')" class="text-center">Train split</th>
                         <th scope="col" onclick="sort_table('dev_split')" class="text-center">Dev split</th>
