@@ -24,16 +24,28 @@ If you want to refer to this work we would appreciate if you cite the followings
     month={Jun}
 } 
 ```
-(To be updated with EMNLP-2023 Findings reference)
->  Oscar Sainz, Jon Ander Campos, Iker García-Ferrero, Julen Etxaniz, Oier Lopez de Lacalle, and Eneko Agirre. Nlp evaluation in trouble: On the need to measure llm data contamination for each benchmark, 2023. URL https://arxiv.org/abs/2310.18018
+
+>  Oscar Sainz, Jon Campos, Iker García-Ferrero, Julen Etxaniz, Oier Lopez de Lacalle, and Eneko Agirre. 2023. [NLP Evaluation in trouble: On the Need to Measure LLM Data Contamination for each Benchmark](https://aclanthology.org/2023.findings-emnlp.722). In Findings of the Association for Computational Linguistics: EMNLP 2023, pages 10776–10787, Singapore. Association for Computational Linguistics.
 ```bibtex
-@misc{sainz2023nlp,
-      title={NLP Evaluation in trouble: On the Need to Measure LLM Data Contamination for each Benchmark}, 
-      author={Oscar Sainz and Jon Ander Campos and Iker García-Ferrero and Julen Etxaniz and Oier Lopez de Lacalle and Eneko Agirre},
-      year={2023},
-      eprint={2310.18018},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2310.18018}
+@inproceedings{sainz-etal-2023-nlp,
+    title = "{NLP} Evaluation in trouble: On the Need to Measure {LLM} Data Contamination for each Benchmark",
+    author = "Sainz, Oscar  and
+      Campos, Jon  and
+      Garc{\'\i}a-Ferrero, Iker  and
+      Etxaniz, Julen  and
+      de Lacalle, Oier Lopez  and
+      Agirre, Eneko",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.722",
+    doi = "10.18653/v1/2023.findings-emnlp.722",
+    pages = "10776--10787",
+    abstract = "In this position paper we argue that the classical evaluation on Natural Language Processing (NLP) tasks using annotated benchmarks is in trouble. The worst kind of data contamination happens when a Large Language Model (LLM) is trained on the test split of a benchmark, and then evaluated in the same benchmark. The extent of the problem is unknown, as it is not straightforward to measure. Contamination causes an overestimation of the performance of a contaminated model in a target benchmark and associated task with respect to their non-contaminated counterparts. The consequences can be very harmful, with wrong scientific conclusions being published while other correct ones are discarded. This position paper defines different levels of data contamination and argues for a community effort, including the development of automatic and semi-automatic measures to detect when data from a benchmark was exposed to a model, and suggestions for flagging papers with conclusions that are compromised by data contamination.",
 }
 ```
